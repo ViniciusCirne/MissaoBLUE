@@ -795,7 +795,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "                     PC\nMovimenta\xE7\xE3o - Ctrl + Mouse"
+  m_Text: "                     PC\nMovimenta\xE7\xE3o - Alt + Mouse"
 --- !u!222 &1481749557
 CanvasRenderer:
   m_ObjectHideFlags: 0

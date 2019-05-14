@@ -32,5 +32,10 @@ public class AraraMovement : MonoBehaviour
 			gameOver.SetActive(true);
 			speed = 0;
 		}
+		if (col.gameObject.CompareTag("Fire")) {
+			rb.useGravity = true;
+			gameOver.SetActive(true);
+			speed = 0;
+		}
 	}
 }

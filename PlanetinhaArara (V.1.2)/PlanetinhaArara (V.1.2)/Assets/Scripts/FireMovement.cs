@@ -6,17 +6,17 @@ using UnityEngine;
 public class FireMovement : MonoBehaviour
 {
     public int speed; 
-    Rigidbody aaa;
+    Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        aaa = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       aaa.velocity = transform.forward * speed;
+       rb.velocity = transform.forward * speed;
     }
 }

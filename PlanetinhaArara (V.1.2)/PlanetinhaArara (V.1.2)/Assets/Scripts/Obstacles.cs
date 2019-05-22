@@ -16,6 +16,12 @@ public class Obstacles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TimeForFall();
         transform.Translate(Vector3.down * fallSpeed * Time.deltaTime, Space.World);
+    }
+
+    IEnumerator TimeForFall()
+    {
+        yield return new WaitForSeconds(5f);
     }
 }

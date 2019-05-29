@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-
     public float speed = 3.0f;
     public float jump = 3.0f;
     public float gravity = 9.8f;

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class AraraMovement : MonoBehaviour
 { 
+	public int araraScore;
 	public float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
@@ -14,6 +15,7 @@ public class AraraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		araraScore = 0;
 		gameOver.SetActive(false);
 		rb = GetComponent<Rigidbody>();
 		speed = 5;
@@ -36,6 +38,11 @@ public class AraraMovement : MonoBehaviour
 			rb.useGravity = true;
 			gameOver.SetActive(true);
 			speed = 0;
+		}
+		if (col.gameObject.CompareTag ("Baby")){
+
+			Score.scoreValue += 10;
+			col.gameObject.SetActive(false);
 		}
 	}
 }

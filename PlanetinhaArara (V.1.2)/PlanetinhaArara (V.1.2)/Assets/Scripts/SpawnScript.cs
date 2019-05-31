@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnScript : MonoBehaviour
 {
 	public GameObject prefab;
-
+    
     Vector3 lastPosi;
     Vector3 nextPosi; 
 
@@ -29,7 +29,9 @@ public class SpawnScript : MonoBehaviour
 
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)
     {
-       nextPosiii = new Vector3 (lastPosiii.x + 30, 0, 0);
+       
+       nextPosiii = new Vector3 (0, 0, lastPosiii.z + 30);
+       lastPosi = nextPosiii;
        Instantiate (prefab, nextPosiii, Quaternion.identity);
     }
        

@@ -29,7 +29,9 @@ public class SpawnScript : MonoBehaviour
 
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)
     {
+       
        nextPosiii = new Vector3 (lastPosiii.x + 30, 0, 0);
+       lastPosi = nextPosiii;
        Instantiate (prefab, nextPosiii, Quaternion.identity);
     }
        

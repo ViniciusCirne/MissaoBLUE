@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnScript : MonoBehaviour
 {
 	public GameObject prefab;
-
+    
     Vector3 lastPosi;
     Vector3 nextPosi; 
 

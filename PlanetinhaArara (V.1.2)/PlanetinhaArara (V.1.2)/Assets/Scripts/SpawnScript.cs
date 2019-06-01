@@ -5,7 +5,8 @@ using UnityEngine;
 public class SpawnScript : MonoBehaviour
 {
 	public GameObject prefab;
-    
+	public Transform playerPosi;
+
     Vector3 lastPosi;
     Vector3 nextPosi; 
 
@@ -21,7 +22,7 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+		if(playerPosi.position.z >= lastPosi.z - 20) //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
               SpawnTrees(nextPosi, lastPosi); 	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }

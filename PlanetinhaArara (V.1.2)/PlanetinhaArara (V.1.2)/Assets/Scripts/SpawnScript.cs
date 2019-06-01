@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnScript : MonoBehaviour
 {
-	public GameObject prefab;
+	public GameObject[] prefab;
 	public Transform playerPosi;
 
     Vector3 lastPosi;
@@ -16,7 +16,7 @@ public class SpawnScript : MonoBehaviour
         lastPosi = new Vector3(0, 0, 0);
         nextPosi = new Vector3(0, 0, 0);
 		//prefab.transform.position.x += 3;
-		Instantiate (prefab, lastPosi, Quaternion.identity);
+		Instantiate (prefab[0], lastPosi, Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -31,9 +31,11 @@ public class SpawnScript : MonoBehaviour
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)
     {
        
+	   float randomNum = (Random.Range (0.0f, 1.0f));
+		Debug.Log(Mathf.RoundToInt(randomNum));
        nextPosiii = new Vector3 (0, 0, lastPosiii.z + 30);
        lastPosi = nextPosiii;
-       Instantiate (prefab, nextPosiii, Quaternion.identity);
+		Instantiate (prefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);
     }
        
     

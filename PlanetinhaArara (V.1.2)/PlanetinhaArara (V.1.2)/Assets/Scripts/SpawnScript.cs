@@ -24,18 +24,26 @@ public class SpawnScript : MonoBehaviour
     {
 		if(playerPosi.position.z >= lastPosi.z - 20) //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
-              SpawnTrees(nextPosi, lastPosi); 	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
+            for (int i = 0; i < 3; i++)
+            {
+                SpawnTrees(nextPosi, lastPosi);
+                }
+        
+               	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }
     }
 
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)
     {
        
-	   float randomNum = (Random.Range (0.0f, 1.0f));
+
+        float randomNum = (Random.Range (0.0f, 1.0f));
 		Debug.Log(Mathf.RoundToInt(randomNum));
-       nextPosiii = new Vector3 (0, 0, lastPosiii.z + 30);
-       lastPosi = nextPosiii;
+        nextPosiii = new Vector3 (0, 0, lastPosiii.z + 30);
+        lastPosi = nextPosiii;
 		Instantiate (prefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);
+       
+	   
     }
        
     

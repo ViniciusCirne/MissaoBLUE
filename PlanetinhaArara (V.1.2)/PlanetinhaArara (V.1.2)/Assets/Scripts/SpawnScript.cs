@@ -6,6 +6,7 @@ public class SpawnScript : MonoBehaviour
 {
 	public GameObject[] prefab;
 	public Transform playerPosi;
+   
 
     Vector3 lastPosi;
     Vector3 nextPosi; 

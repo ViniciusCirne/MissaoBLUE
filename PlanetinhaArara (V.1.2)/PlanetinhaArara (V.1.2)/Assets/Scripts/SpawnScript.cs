@@ -63,7 +63,7 @@ public class SpawnScript : MonoBehaviour
 
 	IEnumerator TempoDeVitoria()
 	{
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(80);
 		canSpawn = false;
 		//vitoria = true;
 		SceneManager.LoadScene("Vitoria");

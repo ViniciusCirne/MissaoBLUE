@@ -37,13 +37,13 @@ public class AraraMovement : MonoBehaviour
 	{
 		if (col.gameObject.CompareTag("Obstacle")) {
 			rb.useGravity = true;
-			gameOver.SetActive(true);
 			speed = 0;
+		 SceneManager.LoadScene("Derrota");
 		}
 		if (col.gameObject.CompareTag("Fire")) {
 			rb.useGravity = true;
-			gameOver.SetActive(true);
 			speed = 0;
+			SceneManager.LoadScene("Derrota");
 		}
 		if (col.gameObject.CompareTag ("Baby")){
 

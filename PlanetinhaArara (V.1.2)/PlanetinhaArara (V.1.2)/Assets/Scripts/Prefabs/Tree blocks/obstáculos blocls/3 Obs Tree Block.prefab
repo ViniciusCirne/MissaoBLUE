@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "2 \xE1rvore Variant (6)"
       objectReference: {fileID: 0}
+    - target: {fileID: 799283125688504013, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 799283125688931053, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -158,6 +163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: arareta Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 166883747603106111, guid: 5e941b3fbb3ae0845805cd5d640e3272,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 166883747603207455, guid: 5e941b3fbb3ae0845805cd5d640e3272,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -213,6 +223,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 166883747603106109, guid: 5e941b3fbb3ae0845805cd5d640e3272,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 166883747603106107, guid: 5e941b3fbb3ae0845805cd5d640e3272,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 166883747603106105, guid: 5e941b3fbb3ae0845805cd5d640e3272,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e941b3fbb3ae0845805cd5d640e3272, type: 3}
 --- !u!4 &3201449808936283292 stripped
@@ -232,6 +257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "1 \xE1rvore (2) Variant (8)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455745, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 5441157293546364641, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
@@ -308,6 +338,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "1 \xE1rvore (2) Variant (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455745, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5441157293546364641, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -382,6 +417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "2 \xE1rvore Variant (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 799283125688504013, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 799283125688931053, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
@@ -458,6 +498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "1 \xE1rvore (2) Variant (6)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455745, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5441157293546364641, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -532,6 +577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "3 \xE1rvore Variant (10)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 94459948284694579, guid: 82cbb920474ac2e4992ae721981ec117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 94459948284857363, guid: 82cbb920474ac2e4992ae721981ec117,
         type: 3}
@@ -608,6 +658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "3 \xE1rvore Variant (8)"
       objectReference: {fileID: 0}
+    - target: {fileID: 94459948284694579, guid: 82cbb920474ac2e4992ae721981ec117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 94459948284857363, guid: 82cbb920474ac2e4992ae721981ec117,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -683,6 +738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "2 \xE1rvore Variant (5)"
       objectReference: {fileID: 0}
+    - target: {fileID: 799283125688504013, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 799283125688931053, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -757,6 +817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "1 \xE1rvore (2) Variant (9)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455745, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 5441157293546364641, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}

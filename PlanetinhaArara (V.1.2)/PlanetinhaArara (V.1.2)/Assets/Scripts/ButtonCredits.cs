@@ -17,7 +17,7 @@ public class ButtonCredits : MonoBehaviour
         
     }
 
-	public void Restart()
+	public void Credits()
 	{
 		SceneManager.LoadScene("Créditos");
 	}

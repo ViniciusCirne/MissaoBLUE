@@ -6,6 +6,8 @@ public class SpawnScript : MonoBehaviour
 {
 	public GameObject[] prefab;
 	public Transform playerPosi;
+	public int xPos;
+	public int yPos;
    
 
     Vector3 lastPosi;
@@ -14,8 +16,8 @@ public class SpawnScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lastPosi = new Vector3(0, 0, 0);
-        nextPosi = new Vector3(0, 0, 0);
+        lastPosi = new Vector3(xPos, yPos, 0);
+        nextPosi = new Vector3(xPos, yPos, 0);
 		//prefab.transform.position.x += 3;
 		Instantiate (prefab[0], lastPosi, Quaternion.identity);
     }
@@ -40,7 +42,7 @@ public class SpawnScript : MonoBehaviour
 
         float randomNum = (Random.Range (0.0f, 1.0f));
 		Debug.Log(Mathf.RoundToInt(randomNum));
-        nextPosiii = new Vector3 (0, 0, lastPosiii.z + 30);
+        nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 30);
         lastPosi = nextPosiii;
 		Instantiate (prefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);
        

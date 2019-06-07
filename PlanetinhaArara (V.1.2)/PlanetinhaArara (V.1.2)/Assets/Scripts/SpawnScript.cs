@@ -62,7 +62,7 @@ public class SpawnScript : MonoBehaviour
 
 	IEnumerator TempoDeVitoria()
 	{
-		yield return new WaitForSeconds(60);
+		yield return new WaitForSeconds(80);
 		canSpawn = false;
 		vitoria = true;
 	}

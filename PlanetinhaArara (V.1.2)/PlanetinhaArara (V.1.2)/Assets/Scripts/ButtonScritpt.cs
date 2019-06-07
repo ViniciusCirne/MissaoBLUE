@@ -41,6 +41,6 @@ public class ButtonScritpt : MonoBehaviour
 
 	public void GoToMenu()
 	{
-		SceneManager.LoadScene("Menu");
+		SceneManager.LoadScene("Menu2");
 	}
 }

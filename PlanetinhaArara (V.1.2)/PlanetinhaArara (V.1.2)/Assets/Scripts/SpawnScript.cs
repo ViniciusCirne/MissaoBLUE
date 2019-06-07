@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnScript : MonoBehaviour
 {
@@ -62,9 +63,10 @@ public class SpawnScript : MonoBehaviour
 
 	IEnumerator TempoDeVitoria()
 	{
-		yield return new WaitForSeconds(80);
+		yield return new WaitForSeconds(5);
 		canSpawn = false;
-		vitoria = true;
+		//vitoria = true;
+		SceneManager.LoadScene("Vitoria");
 	}
        
     

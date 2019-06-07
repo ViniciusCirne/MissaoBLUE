@@ -10,15 +10,15 @@ public class AraraMovement : MonoBehaviour
 	public float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
-	public GameObject vitoria;
+	//public GameObject vitoria;
 
 	
     // Start is called before the first frame update
     void Start()
     {
 		araraScore = 0;
-		gameOver.SetActive(false);
-		vitoria.SetActive(false);
+		//gameOver.SetActive(false);
+		//vitoria.SetActive(false);
 		rb = GetComponent<Rigidbody>();
 		speed = 5;
     }
@@ -28,9 +28,9 @@ public class AraraMovement : MonoBehaviour
     {
 		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
 
-		if (SpawnScript.vitoria) {
-			vitoria.SetActive(true);
-		}
+		//if (SpawnScript.vitoria) {
+		//	vitoria.SetActive(true);
+		//}
     }
 
     void OnCollisionEnter (Collision col)

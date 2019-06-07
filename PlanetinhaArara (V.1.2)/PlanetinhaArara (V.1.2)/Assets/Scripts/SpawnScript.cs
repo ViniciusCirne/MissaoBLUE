@@ -10,6 +10,7 @@ public class SpawnScript : MonoBehaviour
 	public int xPos;
 	public int yPos;
 	public bool canSpawn;
+	public static bool vitoria;
    
 
     Vector3 lastPosi;
@@ -19,6 +20,7 @@ public class SpawnScript : MonoBehaviour
     void Start()
 	{   StartCoroutine(TempoDeVitoria());
 		canSpawn = true;
+		vitoria = false;
         lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 35.0f);
         nextPosi = new Vector3(xPos, yPos, 0);
 
@@ -62,6 +64,7 @@ public class SpawnScript : MonoBehaviour
 	{
 		yield return new WaitForSeconds(60);
 		canSpawn = false;
+		vitoria = true;
 	}
        
     

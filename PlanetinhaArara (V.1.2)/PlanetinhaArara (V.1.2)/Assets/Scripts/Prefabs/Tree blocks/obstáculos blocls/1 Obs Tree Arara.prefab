@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7744526718705401574}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 1 Obs Tree Arara
   m_TagString: Untagged
   m_Icon: {fileID: 0}

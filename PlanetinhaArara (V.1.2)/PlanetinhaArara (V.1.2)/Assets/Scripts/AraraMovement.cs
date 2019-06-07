@@ -47,7 +47,7 @@ public class AraraMovement : MonoBehaviour
 		}
 		if (col.gameObject.CompareTag ("Baby")){
 
-			Score.scoreValue += 10;
+			Score.scoreValue += 1;
 			col.gameObject.SetActive(false);
 		}
 	}

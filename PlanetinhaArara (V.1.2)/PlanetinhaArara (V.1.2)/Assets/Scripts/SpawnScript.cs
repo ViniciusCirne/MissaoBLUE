@@ -19,10 +19,10 @@ public class SpawnScript : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-	{   StartCoroutine(TempoDeVitoria());
+	{  // StartCoroutine(TempoDeVitoria());
 		canSpawn = true;
 		vitoria = false;
-        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 35.0f);
+        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 20.0f);
         nextPosi = new Vector3(xPos, yPos, 0);
 
 		for (int i = 0; i < 3; i++)
@@ -37,7 +37,7 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(playerPosi.position.z >= lastPosi.z - 40 && canSpawn) //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
+		if(playerPosi.position.z >= lastPosi.z - 40 && playerPosi.position.z < 280) //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
             for (int i = 0; i < 3; i++)
             {
@@ -46,10 +46,15 @@ public class SpawnScript : MonoBehaviour
         
                	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }
-		else if (canSpawn == false)
+
+		else if(playerPosi.position.z > 410)
 		{
-			Debug.Log("parabens vc ganhou");
+			SceneManager.LoadScene("Vitoria");
 		}
+	//	else if (canSpawn == false)
+	//	{
+	//		Debug.Log("parabens vc ganhou");
+	//	}
     }
 
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)

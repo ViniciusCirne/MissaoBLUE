@@ -6,6 +6,7 @@ public class SpawnScript : MonoBehaviour
 {
 	public GameObject[] prefab;
 	public Transform playerPosi;
+	public float arraySize;
 	public int xPos;
 	public int yPos;
    
@@ -40,7 +41,7 @@ public class SpawnScript : MonoBehaviour
     {
        
 
-        float randomNum = (Random.Range (0.0f, 1.0f));
+        float randomNum = (Random.Range (0.0f, arraySize));
 		Debug.Log(Mathf.RoundToInt(randomNum));
         nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 30);
         lastPosi = nextPosiii;

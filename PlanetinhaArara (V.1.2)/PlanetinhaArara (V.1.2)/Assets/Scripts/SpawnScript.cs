@@ -60,7 +60,7 @@ public class SpawnScript : MonoBehaviour
     void SpawnTrees(Vector3 nextPosiii, Vector3 lastPosiii)
     {
         float randomNum = (Random.Range (0.0f, arraySize));
-		Debug.Log(Mathf.RoundToInt(randomNum));
+		//Debug.Log(Mathf.RoundToInt(randomNum));
         nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 30);
         lastPosi = nextPosiii;
 		Instantiate (prefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);  

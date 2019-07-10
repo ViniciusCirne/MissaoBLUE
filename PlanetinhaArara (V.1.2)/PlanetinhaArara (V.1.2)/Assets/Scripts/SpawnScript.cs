@@ -15,6 +15,7 @@ public class SpawnScript : MonoBehaviour
 	public static bool vitoria;
 	public int minAraras;
 	public bool scenario;
+	public bool canStartCoroutine;
    
 
     Vector3 lastPosi;
@@ -27,6 +28,7 @@ public class SpawnScript : MonoBehaviour
 		vitoria = false;
         lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 20.0f);
         nextPosi = new Vector3(xPos, yPos, 0);
+		canStartCoroutine = true;
 
 		for (int i = 0; i < 3; i++)
 		{
@@ -50,10 +52,10 @@ public class SpawnScript : MonoBehaviour
                	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }
 
-		else if(Score.scoreValue >= minAraras && scenario == false) //playerPosi.position.z > 410
+		else if(Score.scoreValue >= minAraras && scenario == false && canStartCoroutine == true) //playerPosi.position.z > 410
 		{
 			StartCoroutine(TempoDeVitoria());
-
+			canStartCoroutine = false;
 			//SceneManager.LoadScene("Vitoria");
 		}
 	//	else if (canSpawn == false)
@@ -73,6 +75,7 @@ public class SpawnScript : MonoBehaviour
 
 	IEnumerator TempoDeVitoria()
 	{
+		Debug.Log("santuarios");
 		Instantiate (santuario, lastPosi, Quaternion.identity);
 		yield return new WaitForSeconds(30);
 		//canSpawn = false;

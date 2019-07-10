@@ -5,13 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SpawnScript : MonoBehaviour
 {
-	public GameObject[] prefab;
+	public GameObject[] treePrefab;
+	public GameObject santuario;
 	public Transform playerPosi;
 	public float arraySize;
 	public int xPos;
 	public int yPos;
 	public bool canSpawn;
 	public static bool vitoria;
+	public int minAraras;
+	public bool scenario;
    
 
     Vector3 lastPosi;
@@ -37,7 +40,7 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(playerPosi.position.z >= lastPosi.z - 40 && playerPosi.position.z < 280) //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
+		if(playerPosi.position.z >= lastPosi.z - 40 && Score.scoreValue < minAraras) // playerPosi.position.z < 280 //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
             for (int i = 0; i < 3; i++)
             {
@@ -47,9 +50,11 @@ public class SpawnScript : MonoBehaviour
                	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }
 
-		else if(playerPosi.position.z > 410)
+		else if(Score.scoreValue >= minAraras && scenario == false) //playerPosi.position.z > 410
 		{
-			SceneManager.LoadScene("Vitoria");
+			StartCoroutine(TempoDeVitoria());
+
+			//SceneManager.LoadScene("Vitoria");
 		}
 	//	else if (canSpawn == false)
 	//	{
@@ -63,14 +68,16 @@ public class SpawnScript : MonoBehaviour
 		//Debug.Log(Mathf.RoundToInt(randomNum));
         nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 30);
         lastPosi = nextPosiii;
-		Instantiate (prefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);  
+		Instantiate (treePrefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);  
     }
 
 	IEnumerator TempoDeVitoria()
 	{
-		yield return new WaitForSeconds(80);
-		canSpawn = false;
+		Instantiate (santuario, lastPosi, Quaternion.identity);
+		yield return new WaitForSeconds(30);
+		//canSpawn = false;
 		//vitoria = true;
+
 		SceneManager.LoadScene("Vitoria");
 	}
        

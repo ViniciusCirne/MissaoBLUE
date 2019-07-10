@@ -77,7 +77,7 @@ public class SpawnScript : MonoBehaviour
 	{
 		Debug.Log("santuarios");
 		Instantiate (santuario, lastPosi, Quaternion.identity);
-		yield return new WaitForSeconds(30);
+		yield return new WaitForSeconds(20);
 		//canSpawn = false;
 		//vitoria = true;
 

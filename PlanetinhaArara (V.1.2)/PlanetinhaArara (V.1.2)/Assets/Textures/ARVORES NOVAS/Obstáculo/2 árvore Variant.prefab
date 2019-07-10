@@ -273,9 +273,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: "2 \xE1rvore Variant"
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 9033b63c4e2dd104497653e59751eb20, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9033b63c4e2dd104497653e59751eb20, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9033b63c4e2dd104497653e59751eb20, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 9033b63c4e2dd104497653e59751eb20, type: 3}
       propertyPath: m_IsActive

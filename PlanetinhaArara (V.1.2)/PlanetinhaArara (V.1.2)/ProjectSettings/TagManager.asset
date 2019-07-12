@@ -7,6 +7,8 @@ TagManager:
   - Obstacle
   - Fire
   - Baby
+  - Normal Tree
+  - Fire Tree
   layers:
   - Default
   - TransparentFX

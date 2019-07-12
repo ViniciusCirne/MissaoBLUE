@@ -32,6 +32,7 @@ Transform:
   - {fileID: 1320801691578699537}
   - {fileID: 4561045993637742369}
   - {fileID: 5605461601923897760}
+  - {fileID: 866749942729814546}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -89,17 +90,17 @@ PrefabInstance:
     - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.14
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.48
+      value: -8.29
       objectReference: {fileID: 0}
     - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.86
+      value: -7.3
       objectReference: {fileID: 0}
     - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
         type: 3}
@@ -246,6 +247,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455749, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     - target: {fileID: 5441157293546455747, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
       propertyPath: m_Layer
@@ -340,6 +346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 94459948284694583, guid: 82cbb920474ac2e4992ae721981ec117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     - target: {fileID: 94459948284694577, guid: 82cbb920474ac2e4992ae721981ec117,
         type: 3}
@@ -646,6 +657,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455749, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     - target: {fileID: 5441157293546455747, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
       propertyPath: m_Layer
@@ -658,6 +674,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5441157293546364641, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
     type: 3}
   m_PrefabInstance: {fileID: 4465442258122758963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4993820447945455963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7391959124392001773}
+    m_Modifications:
+    - target: {fileID: 5281259214153370436, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_Name
+      value: Fire (Tree) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0738e04186caef4c8f903d74bf1b84f, type: 3}
+--- !u!4 &866749942729814546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5281259214153370441, guid: c0738e04186caef4c8f903d74bf1b84f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4993820447945455963}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5741097155833396755
 PrefabInstance:
@@ -740,6 +841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 799283125688504009, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     - target: {fileID: 799283125688504011, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
@@ -931,6 +1037,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5441157293546455749, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     - target: {fileID: 5441157293546455747, guid: 19d68a4c9c4b74b4c9ba8fcb60b23999,
         type: 3}
       propertyPath: m_Layer
@@ -1025,6 +1136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 94459948284694583, guid: 82cbb920474ac2e4992ae721981ec117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     - target: {fileID: 94459948284694577, guid: 82cbb920474ac2e4992ae721981ec117,
         type: 3}
@@ -1125,6 +1241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 94459948284694583, guid: 82cbb920474ac2e4992ae721981ec117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     - target: {fileID: 94459948284694577, guid: 82cbb920474ac2e4992ae721981ec117,
         type: 3}
@@ -1249,7 +1370,7 @@ PrefabInstance:
     - target: {fileID: 799283125688504013, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
       propertyPath: m_TagString
-      value: Normal Tree
+      value: Fire Tree
       objectReference: {fileID: 0}
     - target: {fileID: 799283125688931053, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}
@@ -1310,6 +1431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 799283125688504009, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Fire Tree
       objectReference: {fileID: 0}
     - target: {fileID: 799283125688504011, guid: 4bfe4d26f466b7341894e5da0fbeb69b,
         type: 3}

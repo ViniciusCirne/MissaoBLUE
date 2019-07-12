@@ -43,17 +43,24 @@ public class AraraMovement : MonoBehaviour
 		    SceneManager.LoadScene("Derrota");
 		}
 
-		else if (col.gameObject.CompareTag("Fire Tree") || life == 0) {
+		else if (col.gameObject.CompareTag("Fire Tree")) {
+			Debug.Log("morreuuu");
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
 		}
+			
 
 		else if (col.gameObject.CompareTag("Normal Tree")) {
-			rb.useGravity = true;
-			speed = 0;
 			life = life - 1;
 			Debug.Log(life);
+
+			if (life == 0) {
+				Debug.Log("morreuuu");
+				rb.useGravity = true;
+				speed = 0;
+				SceneManager.LoadScene("Derrota");
+			}
 		}
 
 		else if (col.gameObject.CompareTag("Fire")) {
@@ -67,5 +74,12 @@ public class AraraMovement : MonoBehaviour
 			Score.scoreValue += 1;
 			col.gameObject.SetActive(false);
 		}
+
+		//else if (life == 0) {
+		//	Debug.Log("morreuuu");
+		//	rb.useGravity = true;
+		//	speed = 0;
+		//	SceneManager.LoadScene("Derrota");
+		//}
 	}
 }

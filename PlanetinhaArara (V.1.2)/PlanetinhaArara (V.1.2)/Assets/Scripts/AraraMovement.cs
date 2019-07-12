@@ -10,12 +10,14 @@ public class AraraMovement : MonoBehaviour
 	public float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
+	public int life;
 	//public GameObject vitoria;
 
 	
     // Start is called before the first frame update
     void Start()
     {
+		life = 3;
 		araraScore = 0;
 		//gameOver.SetActive(false);
 		//vitoria.SetActive(false);
@@ -40,12 +42,27 @@ public class AraraMovement : MonoBehaviour
 			speed = 0;
 		    SceneManager.LoadScene("Derrota");
 		}
-		if (col.gameObject.CompareTag("Fire")) {
+
+		else if (col.gameObject.CompareTag("Fire Tree") || life == 0) {
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
 		}
-		if (col.gameObject.CompareTag ("Baby")){
+
+		else if (col.gameObject.CompareTag("Normal Tree")) {
+			rb.useGravity = true;
+			speed = 0;
+			life = life - 1;
+			Debug.Log(life);
+		}
+
+		else if (col.gameObject.CompareTag("Fire")) {
+			rb.useGravity = true;
+			speed = 0;
+			SceneManager.LoadScene("Derrota");
+		}
+
+		else if (col.gameObject.CompareTag ("Baby")){
 
 			Score.scoreValue += 1;
 			col.gameObject.SetActive(false);

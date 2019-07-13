@@ -11,12 +11,14 @@ public class AraraMovement : MonoBehaviour
 	private Rigidbody rb;
 	public GameObject gameOver;
 	public int life;
+	public GameObject[] lifes;
 	//public GameObject vitoria;
 
 	
     // Start is called before the first frame update
     void Start()
     {
+		
 		life = 3;
 		araraScore = 0;
 		//gameOver.SetActive(false);
@@ -29,6 +31,30 @@ public class AraraMovement : MonoBehaviour
     void Update()
     {
 		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+
+		if (life == 3) {
+			lifes[0].SetActive(true);
+			lifes[1].SetActive(true);
+			lifes[2].SetActive(true);
+		}
+
+		else if (life == 2) {
+			lifes[0].SetActive(true);
+			lifes[1].SetActive(true);
+			lifes[2].SetActive(false);
+		}
+
+		else if (life == 1) {
+			lifes[0].SetActive(true);
+			lifes[1].SetActive(false);
+			lifes[2].SetActive(false);
+		}
+
+		else if (life == 1) {
+			lifes[0].SetActive(false);
+			lifes[1].SetActive(false);
+			lifes[2].SetActive(false);
+		}
 
 		//if (SpawnScript.vitoria) {
 		//	vitoria.SetActive(true);

@@ -24,7 +24,7 @@ public class AraraMovement : MonoBehaviour
 		//gameOver.SetActive(false);
 		//vitoria.SetActive(false);
 		rb = GetComponent<Rigidbody>();
-		speed = 5;
+		//speed = 5;
     }
 
     // Update is called once per frame

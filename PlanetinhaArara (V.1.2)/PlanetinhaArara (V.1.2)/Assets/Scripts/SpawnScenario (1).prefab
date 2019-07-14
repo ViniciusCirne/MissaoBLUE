@@ -43,11 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9f5eadd749de34409a740eb32d8f782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab:
-  - {fileID: 2322063259135874082, guid: ea28a60760f63bc419378e82e3073338, type: 3}
-  - {fileID: 995425985232177379, guid: aa08c0965efda35498658bc75627c8a4, type: 3}
+  treePrefab: []
+  santuario: {fileID: 0}
   playerPosi: {fileID: 0}
   arraySize: 0
-  xPos: -35
+  xPos: -25
   yPos: -16
   canSpawn: 0
+  minAraras: 0
+  scenario: 0
+  canStartCoroutine: 0

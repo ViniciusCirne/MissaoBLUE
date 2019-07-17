@@ -10,7 +10,7 @@ public class AraraMovement : MonoBehaviour
 	public float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
-	public int life;
+	public static int life;
 	public GameObject[] lifes;
 	//public GameObject vitoria;
 
@@ -32,29 +32,33 @@ public class AraraMovement : MonoBehaviour
     {
 		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
 
-		if (life == 3) {
-			lifes[0].SetActive(true);
-			lifes[1].SetActive(true);
-			lifes[2].SetActive(true);
-		}
+		// if (life == 3) {
+		// 	lifes[0].SetActive(true);
+		// 	lifes[1].SetActive(false);
+		// 	lifes[2].SetActive(false);
+		// 	lifes[3].SetActive(false);
+		// }
 
-		else if (life == 2) {
-			lifes[0].SetActive(true);
-			lifes[1].SetActive(true);
-			lifes[2].SetActive(false);
-		}
+		// else if (life == 2) {
+		// 	lifes[0].SetActive(false);
+		// 	lifes[1].SetActive(true);
+		// 	lifes[2].SetActive(false);
+		// 	lifes[3].SetActive(false);
+		// }
 
-		else if (life == 1) {
-			lifes[0].SetActive(true);
-			lifes[1].SetActive(false);
-			lifes[2].SetActive(false);
-		}
+		// else if (life == 1) {
+		// 	lifes[0].SetActive(false);
+		// 	lifes[1].SetActive(false);
+		// 	lifes[2].SetActive(true);
+		// 	lifes[3].SetActive(false);
+		// }
 
-		else if (life == 1) {
-			lifes[0].SetActive(false);
-			lifes[1].SetActive(false);
-			lifes[2].SetActive(false);
-		}
+		// else if (life == 0) {
+		// 	lifes[0].SetActive(false);
+		// 	lifes[1].SetActive(false);
+		// 	lifes[2].SetActive(false);
+		// 	lifes[3].SetActive(true);
+		// }
 
 		//if (SpawnScript.vitoria) {
 		//	vitoria.SetActive(true);

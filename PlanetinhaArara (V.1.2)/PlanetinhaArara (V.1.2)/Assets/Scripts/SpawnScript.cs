@@ -26,7 +26,7 @@ public class SpawnScript : MonoBehaviour
 	{  // StartCoroutine(TempoDeVitoria());
 		canSpawn = true;
 		vitoria = false;
-        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 20.0f);
+        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 10.0f);
         nextPosi = new Vector3(xPos, yPos, 0);
 		canStartCoroutine = true;
 
@@ -42,7 +42,7 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(playerPosi.position.z >= lastPosi.z - 40 && Score.scoreValue < minAraras) // playerPosi.position.z < 280 //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
+		if(playerPosi.position.z >= lastPosi.z - 30 && Score.scoreValue < minAraras) // playerPosi.position.z < 280 //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
             for (int i = 0; i < 3; i++)
             {
@@ -68,8 +68,9 @@ public class SpawnScript : MonoBehaviour
     {
         float randomNum = (Random.Range (0.0f, arraySize));
 		//Debug.Log(Mathf.RoundToInt(randomNum));
-        nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 30);
+        nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 67);
         lastPosi = nextPosiii;
+		Debug.Log(lastPosi.z);
 		Instantiate (treePrefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);  
     }
 

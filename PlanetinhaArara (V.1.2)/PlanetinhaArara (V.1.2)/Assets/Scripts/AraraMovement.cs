@@ -24,14 +24,19 @@ public class AraraMovement : MonoBehaviour
 		//gameOver.SetActive(false);
 		//vitoria.SetActive(false);
 		rb = GetComponent<Rigidbody>();
-		//speed = 5;
+		
+		//rb.velocity = Camera.main.transform.forward + new Vector3(0,0,40);
     }
 
     // Update is called once per frame
     void Update()
     {
-		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
 
+		//transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+	
+		//rb.MovePosition(transform.position + (transform.position + (Camera.main.transform.forward * Time.deltaTime)));
+       // Debug.Log(rb.velocity);
+		//rb.velocity = Camera.main.transform.forward * speed * Time.deltaTime;
 		// if (life == 3) {
 		// 	lifes[0].SetActive(true);
 		// 	lifes[1].SetActive(false);
@@ -65,8 +70,17 @@ public class AraraMovement : MonoBehaviour
 		//}
     }
 
+	void FixedUpdate()
+	{
+		rb.MovePosition(transform.position + Camera.main.transform.forward * speed * Time.deltaTime);
+		//rb.MovePosition(transform.position + (transform.position + (Camera.main.transform.forward * Time.deltaTime)));
+	}
+
     void OnCollisionEnter (Collision col)
 	{
+
+         Debug.Log(col.gameObject.name);
+
 		if (col.gameObject.CompareTag("Obstacle")) {
 			rb.useGravity = true;
 			speed = 0;

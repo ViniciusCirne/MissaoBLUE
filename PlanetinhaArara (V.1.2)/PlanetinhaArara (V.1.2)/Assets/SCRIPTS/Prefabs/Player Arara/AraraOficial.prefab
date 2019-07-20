@@ -1091,7 +1091,7 @@ GameObject:
   - component: {fileID: 1085493566}
   - component: {fileID: 1085493565}
   m_Layer: 0
-  m_Name: arara_animada
+  m_Name: AraraOficial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1727,7 +1727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1900507282
 Transform:
   m_ObjectHideFlags: 0
@@ -1830,7 +1830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2032487993
 Transform:
   m_ObjectHideFlags: 0

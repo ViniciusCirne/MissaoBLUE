@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SpawnScript : MonoBehaviour
 {
-	public GameObject[] treePrefab;
+	public GameObject[] easyTrees;
+	public GameObject[] hardTrees;
 	public GameObject santuario;
 	public Transform playerPosi;
 	public float arraySize;
@@ -16,6 +17,8 @@ public class SpawnScript : MonoBehaviour
 	public int minAraras;
 	public bool scenario;
 	public bool canStartCoroutine;
+
+	public float difzPosition;
    
 
     Vector3 lastPosi;
@@ -71,8 +74,18 @@ public class SpawnScript : MonoBehaviour
         nextPosiii = new Vector3 (xPos, yPos, lastPosiii.z + 67);
         lastPosi = nextPosiii;
 		Debug.Log(lastPosi.z);
-		Instantiate (treePrefab[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);  
+
+    if(playerPosi.position.z < difzPosition){
+
+		Instantiate (easyTrees[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);
+	}
+
+	else if(playerPosi.position.z > difzPosition)
+
+		  Instantiate (hardTrees[Mathf.RoundToInt(randomNum)], nextPosiii, Quaternion.identity);
     }
+
+
 
 	IEnumerator TempoDeVitoria()
 	{

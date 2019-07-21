@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7358516928643318479}
   m_Layer: 0
-  m_Name: Bloco F4
+  m_Name: Bloco F4 (certo)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,6 +148,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7358516928643318479}
     m_Modifications:
+    - target: {fileID: 2293484705346137498, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+        type: 3}
+      propertyPath: m_Name
+      value: arvore_2ok (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2613342687692871369, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -203,10 +208,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2293484705346137498, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+    - target: {fileID: 2852913965746609615, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
         type: 3}
-      propertyPath: m_Name
-      value: arvore_2ok (2)
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609733711118961396, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6, type: 3}
@@ -283,6 +293,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3105962491054720966, guid: 4e11f9f7ba55f5042962ab601d441761,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667128453978421774, guid: 4e11f9f7ba55f5042962ab601d441761,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e11f9f7ba55f5042962ab601d441761, type: 3}
 --- !u!4 &3862265484691470481 stripped
@@ -358,6 +378,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7428042445516369779, guid: 2f82f2be2d0ef4c41beb9f8e00179afe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f82f2be2d0ef4c41beb9f8e00179afe, type: 3}
 --- !u!4 &3968794839332347227 stripped
@@ -373,6 +398,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7358516928643318479}
     m_Modifications:
+    - target: {fileID: 650020381389270358, guid: ff3f1a57c17e40b4d93f30c8007b29d1,
+        type: 3}
+      propertyPath: m_Name
+      value: arvore_3 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 1658373176706560026, guid: ff3f1a57c17e40b4d93f30c8007b29d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -428,10 +458,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 650020381389270358, guid: ff3f1a57c17e40b4d93f30c8007b29d1,
+    - target: {fileID: 411849806506963146, guid: ff3f1a57c17e40b4d93f30c8007b29d1,
         type: 3}
-      propertyPath: m_Name
-      value: arvore_3 (3)
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941535036097174814, guid: ff3f1a57c17e40b4d93f30c8007b29d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff3f1a57c17e40b4d93f30c8007b29d1, type: 3}
@@ -448,6 +483,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7358516928643318479}
     m_Modifications:
+    - target: {fileID: 2293484705346137498, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+        type: 3}
+      propertyPath: m_Name
+      value: arvore_2ok (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 2613342687692871369, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,10 +543,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2293484705346137498, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+    - target: {fileID: 2852913965746609615, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
         type: 3}
-      propertyPath: m_Name
-      value: arvore_2ok (1)
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609733711118961396, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4314bbb85ab9bc4eb77db7e7ef74fb6, type: 3}
@@ -583,6 +628,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6555945352424021007, guid: 269cade6d5b80c74a8803a62112c62f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 5861556005327677222, guid: 269cade6d5b80c74a8803a62112c62f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 269cade6d5b80c74a8803a62112c62f6, type: 3}
 --- !u!4 &8574615970012619089 stripped
@@ -658,6 +713,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7428042445516369779, guid: 2f82f2be2d0ef4c41beb9f8e00179afe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f82f2be2d0ef4c41beb9f8e00179afe, type: 3}
 --- !u!4 &3968794838119773989 stripped
@@ -732,6 +792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428042445516369779, guid: 2f82f2be2d0ef4c41beb9f8e00179afe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Normal Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f82f2be2d0ef4c41beb9f8e00179afe, type: 3}

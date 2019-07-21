@@ -9,6 +9,7 @@ TagManager:
   - Baby
   - Normal Tree
   - Fire Tree
+  - Sound Manager
   layers:
   - Default
   - TransparentFX

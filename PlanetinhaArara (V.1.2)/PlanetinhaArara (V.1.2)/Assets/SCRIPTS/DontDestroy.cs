@@ -12,6 +12,14 @@ public class DontDestroy : MonoBehaviour
     {
 		DontDestroyOnLoad(soundManager);
 		DontDestroyOnLoad(musicas);
+
+		GameObject[] objs = GameObject.FindGameObjectsWithTag("Sound Manager");
+
+		if (objs.Length > 1)
+		{
+			Destroy(this.gameObject);
+			Debug.Log ("bora meu fi destrua");
+		}
     }
 
     // Update is called once per frame
@@ -20,5 +28,10 @@ public class DontDestroy : MonoBehaviour
         
     }
 
+	void Awake()
+	{
+		
 
+		//DontDestroyOnLoad(this.gameObject);
+	}
 }

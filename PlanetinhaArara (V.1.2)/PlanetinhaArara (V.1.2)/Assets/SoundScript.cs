@@ -23,6 +23,15 @@ public class SoundScript : MonoBehaviour
 		//DontDestroyOnLoad(musicaAcao);
 		playPressed = false;
 		canStartCrtn = true;
+
+		GameObject[] objs = GameObject.FindGameObjectsWithTag("Sound Manager");
+
+		if (objs.Length > 1)
+		{
+			Destroy(this.gameObject);
+			Debug.Log ("bora meu fi destrua");
+		}
+
     }
 
     // Update is called once per frame

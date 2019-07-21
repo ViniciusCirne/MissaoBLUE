@@ -56,7 +56,7 @@ public class SoundScript : MonoBehaviour
 			musAcao.Stop();
 		}
 
-		yield return new WaitForSeconds(40);
+		yield return new WaitForSeconds(40 );
 		Debug.Log("esperouu");
 
 		canStartCrtn = true;

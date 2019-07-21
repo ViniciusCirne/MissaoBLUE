@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SoundScript : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class SoundScript : MonoBehaviour
     {
 		musInicio = musicaInicio;
 		musAcao = musicaAcao;
+		//DontDestroyOnLoad(musicaInicio);
+		//DontDestroyOnLoad(musicaAcao);
 		playPressed = false;
 		canStartCrtn = true;
     }
@@ -25,10 +28,12 @@ public class SoundScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		Debug.Log("nao fui destruidoo");
+
 		if (canStartCrtn == true) {
 			
 			StartCoroutine("VerificacaoPlay");
-			//canStartCrtn = false;
+			canStartCrtn = false;
 		}
 
 
@@ -36,19 +41,23 @@ public class SoundScript : MonoBehaviour
 
 	IEnumerator VerificacaoPlay()
 	{
-		if (playPressed == true) 
+		Scene cena = SceneManager.GetActiveScene();
+
+		if (cena.name == "Gameplay")  //playPressed == true
 		{
-			musicaInicio.Stop();
-			musicaAcao.Play();
+			musInicio.Stop();
+			musAcao.Play();
 		}
 
-		else if (playPressed == false) 
+		else if (cena.name == "Menu2") 
 		{
 			Debug.Log("começa a musica");
-			musicaInicio.Play();
+			musInicio.Play();
+			musAcao.Stop();
 		}
 
-		yield return new WaitForSeconds(42);
+		yield return new WaitForSeconds(40);
+		Debug.Log("esperouu");
 
 		canStartCrtn = true;
 	}

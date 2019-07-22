@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 7528488988f9d48478da328909125dea
-timeCreated: 1494615574
-licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - InstantPreviewApk: {fileID: -1121539586, guid: 16e6b86de4a9e4f16b8a25b413d684d7,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -12,13 +12,14 @@ public class AraraMovement : MonoBehaviour
 	public GameObject gameOver;
 	public static int life;
 	public GameObject[] lifes;
+	public AudioSource hitsource;
 	//public GameObject vitoria;
 
 	
     // Start is called before the first frame update
     void Start()
     {
-		
+		hitsource = GetComponent<AudioSource>();
 		life = 3;
 		araraScore = 0;
 		//gameOver.SetActive(false);
@@ -85,6 +86,7 @@ public class AraraMovement : MonoBehaviour
 			rb.useGravity = true;
 			speed = 0;
 		    SceneManager.LoadScene("Derrota");
+			hitsource.Play();
 		}
 
 		else if (col.gameObject.CompareTag("Fire Tree")) {
@@ -92,6 +94,7 @@ public class AraraMovement : MonoBehaviour
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
+			hitsource.Play();
 		}
 			
 
@@ -99,18 +102,21 @@ public class AraraMovement : MonoBehaviour
 			life = life - 1;
 			Debug.Log(life);
 
-			if (life == 0) {
+			if (life == 0) 
+			{
 				Debug.Log("morreuuu");
 				rb.useGravity = true;
 				speed = 0;
 				SceneManager.LoadScene("Derrota");
 			}
+			hitsource.Play();
 		}
 
 		else if (col.gameObject.CompareTag("Fire")) {
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
+			hitsource.Play();
 		}
 
 		else if (col.gameObject.CompareTag ("Baby")){

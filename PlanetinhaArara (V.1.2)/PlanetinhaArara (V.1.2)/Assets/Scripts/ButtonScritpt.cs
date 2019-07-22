@@ -43,4 +43,13 @@ public class ButtonScritpt : MonoBehaviour
 	{
 		SceneManager.LoadScene("Menu2");
 	}
+
+	public void GoToTutorial()
+	{
+		SceneManager.LoadScene("Tutorial");
+	}
+
+
+
+
 }

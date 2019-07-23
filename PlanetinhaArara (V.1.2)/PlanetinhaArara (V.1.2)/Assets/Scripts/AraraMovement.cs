@@ -12,21 +12,30 @@ public class AraraMovement : MonoBehaviour
 	public GameObject gameOver;
 	public static int life;
 	public GameObject[] lifes;
-	public AudioSource hitsource;
+	public AudioSource audiosource;
+	public AudioClip collectibleclip;
+	public AudioClip hitclip;
+	private Shake shake;
+
+
 	//public GameObject vitoria;
 
 	
     // Start is called before the first frame update
     void Start()
     {
-		hitsource = GetComponent<AudioSource>();
+		shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
+
+
+		audiosource = GetComponent<AudioSource>();
 		life = 3;
 		araraScore = 0;
 		//gameOver.SetActive(false);
 		//vitoria.SetActive(false);
 		rb = GetComponent<Rigidbody>();
-		
+
 		//rb.velocity = Camera.main.transform.forward + new Vector3(0,0,40);
+
     }
 
     // Update is called once per frame
@@ -86,7 +95,11 @@ public class AraraMovement : MonoBehaviour
 			rb.useGravity = true;
 			speed = 0;
 		    SceneManager.LoadScene("Derrota");
-			hitsource.Play();
+
+			//audiosource.clip = hitclip;
+			//audiosource.Play();
+
+			//shake.CamShake();
 		}
 
 		else if (col.gameObject.CompareTag("Fire Tree")) {
@@ -94,7 +107,11 @@ public class AraraMovement : MonoBehaviour
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
-			hitsource.Play();
+					
+			audiosource.clip = hitclip;
+			audiosource.Play();
+
+			shake.CamShake();
 		}
 			
 
@@ -109,20 +126,34 @@ public class AraraMovement : MonoBehaviour
 				speed = 0;
 				SceneManager.LoadScene("Derrota");
 			}
-			hitsource.Play();
+			
+			
+			audiosource.clip = hitclip;
+			audiosource.Play();		
+
+			shake.CamShake();
+	
 		}
 
 		else if (col.gameObject.CompareTag("Fire")) {
 			rb.useGravity = true;
 			speed = 0;
 			SceneManager.LoadScene("Derrota");
-			hitsource.Play();
+			
+			audiosource.clip = hitclip;
+			audiosource.Play();
+
+			shake.CamShake();
 		}
 
 		else if (col.gameObject.CompareTag ("Baby")){
 
 			Score.scoreValue += 1;
 			col.gameObject.SetActive(false);
+
+			
+			audiosource.clip = collectibleclip;
+			audiosource.Play();
 		}
 
 		//else if (life == 0) {

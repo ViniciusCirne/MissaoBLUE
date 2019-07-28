@@ -5,15 +5,15 @@ using UnityEngine;
 public class SceneFading : MonoBehaviour
 {
     public Texture2D fadeTexture;
-    public float fadeSpeed;
-    private int textureHierarchy = -100;
-    private float textureAlpha = -1.0f;
+    public float fadeSpeed = 0.8f;
+    private int textureHierarchy = -1000;
+    private float textureAlpha = 1.0f;
     private int fadeDirection = -1;
 
     void OnGUI()
     {
 
-        textureAlpha += fadeDirection + fadeSpeed * Time.deltaTime;
+        textureAlpha += fadeDirection * fadeSpeed * Time.deltaTime;
         textureAlpha = Mathf.Clamp01(textureAlpha);
         GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, textureAlpha);
         GUI.depth = textureHierarchy;

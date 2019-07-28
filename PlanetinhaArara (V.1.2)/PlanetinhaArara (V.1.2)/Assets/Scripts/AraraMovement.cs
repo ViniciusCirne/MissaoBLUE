@@ -16,6 +16,7 @@ public class AraraMovement : MonoBehaviour
 	public AudioClip collectibleclip;
 	public AudioClip hitclip;
 	private Shake shake;
+	
 
 
 	//public GameObject vitoria;
@@ -86,14 +87,23 @@ public class AraraMovement : MonoBehaviour
 		//rb.MovePosition(transform.position + (transform.position + (Camera.main.transform.forward * Time.deltaTime)));
 	}
 
+	IEnumerator FadeManeger()
+    {
+        float fadeTime = GameObject.Find("Scene Fading").GetComponent<SceneFading>().Fade(1);
+		yield return new WaitForSeconds(fadeTime);
+    }
+
     void OnCollisionEnter (Collision col)
 	{
 
          Debug.Log(col.gameObject.name);
 
-		if (col.gameObject.CompareTag("Obstacle")) {
+		if (col.gameObject.CompareTag("Obstacle")) 
+		{
 			rb.useGravity = true;
 			speed = 0;
+			
+			StartCoroutine(FadeManeger());	
 		    SceneManager.LoadScene("Derrota");
 
 			//audiosource.clip = hitclip;
@@ -106,12 +116,14 @@ public class AraraMovement : MonoBehaviour
 			Debug.Log("morreuuu");
 			rb.useGravity = true;
 			speed = 0;
-			SceneManager.LoadScene("Derrota");
-					
+			
 			audiosource.clip = hitclip;
 			audiosource.Play();
 
 			shake.CamShake();
+
+			StartCoroutine(FadeManeger());
+			SceneManager.LoadScene("Derrota");
 		}
 			
 
@@ -124,6 +136,8 @@ public class AraraMovement : MonoBehaviour
 				Debug.Log("morreuuu");
 				rb.useGravity = true;
 				speed = 0;
+
+				StartCoroutine(FadeManeger());
 				SceneManager.LoadScene("Derrota");
 			}
 			
@@ -138,12 +152,14 @@ public class AraraMovement : MonoBehaviour
 		else if (col.gameObject.CompareTag("Fire")) {
 			rb.useGravity = true;
 			speed = 0;
-			SceneManager.LoadScene("Derrota");
 			
 			audiosource.clip = hitclip;
 			audiosource.Play();
 
 			shake.CamShake();
+
+			StartCoroutine(FadeManeger());
+			SceneManager.LoadScene("Derrota");
 		}
 
 		else if (col.gameObject.CompareTag ("Baby")){

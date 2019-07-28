@@ -14,7 +14,7 @@ public class NumAraras : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		minAraras = 10;
+		minAraras = 3;
 		num = GetComponent<Text> ();
 		//canvasNum.SetActive (false);
 		StartCoroutine(TempoCanvas());

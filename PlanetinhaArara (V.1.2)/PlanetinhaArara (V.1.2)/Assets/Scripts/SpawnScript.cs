@@ -45,7 +45,7 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(playerPosi.position.z >= lastPosi.z - 30 && Score.scoreValue < minAraras) // playerPosi.position.z < 280 //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
+		if(playerPosi.position.z >= lastPosi.z - 30 && Score.scoreValue < NumAraras.minAraras) // playerPosi.position.z < 280 //Input.GetButtonDown("Fire1") playerPosi.position.z >= lastPosi.z + 5
         {
             for (int i = 0; i < 3; i++)
             {
@@ -55,7 +55,7 @@ public class SpawnScript : MonoBehaviour
                	//Instantiate (prefab, new Vector3(30, 0, 0), Quaternion.identity);
         }
 
-		else if(Score.scoreValue >= minAraras && scenario == false && canStartCoroutine == true) //playerPosi.position.z > 410
+		else if(Score.scoreValue >= NumAraras.minAraras && scenario == false && canStartCoroutine == true) //playerPosi.position.z > 410
 		{
 			StartCoroutine(TempoDeVitoria());
 			canStartCoroutine = false;
@@ -91,7 +91,7 @@ public class SpawnScript : MonoBehaviour
 	{
 		Debug.Log("santuarios");
 		Instantiate (santuario, lastPosi, Quaternion.identity);
-		yield return new WaitForSeconds(10);
+		yield return new WaitForSeconds(20);
 		//canSpawn = false;
 		//vitoria = true;
 

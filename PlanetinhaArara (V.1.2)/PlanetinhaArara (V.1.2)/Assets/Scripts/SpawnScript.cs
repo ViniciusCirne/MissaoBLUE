@@ -29,7 +29,7 @@ public class SpawnScript : MonoBehaviour
 	{  // StartCoroutine(TempoDeVitoria());
 		canSpawn = true;
 		vitoria = false;
-        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 10.0f);
+        lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 50.0f);
         nextPosi = new Vector3(xPos, yPos, 0);
 		canStartCoroutine = true;
 
@@ -96,6 +96,7 @@ public class SpawnScript : MonoBehaviour
 		//vitoria = true;
 
 		SceneManager.LoadScene("Vitoria");
+		NumAraras.canAdd = true;
 	}
        
     

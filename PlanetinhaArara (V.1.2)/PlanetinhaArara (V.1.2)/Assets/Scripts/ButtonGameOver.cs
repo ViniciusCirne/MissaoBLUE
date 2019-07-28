@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ButtonGameOver : MonoBehaviour
 {
+    public AudioSource buttonplay;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
+    buttonplay = GetComponent<AudioSource>();   
+
     }
 
     // Update is called once per frame
@@ -19,6 +23,7 @@ public class ButtonGameOver : MonoBehaviour
 
 	public void Restart()
 	{
-		SceneManager.LoadScene("Gameplay");
+        buttonplay.Play();
+		SceneManager.LoadScene("Gameplay");        
 	}
 }

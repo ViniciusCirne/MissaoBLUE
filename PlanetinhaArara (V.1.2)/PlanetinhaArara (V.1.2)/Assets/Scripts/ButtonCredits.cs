@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ButtonCredits : MonoBehaviour
 {
+    public AudioSource buttoncredits;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        buttoncredits = GetComponent<AudioSource>();
+        buttoncredits.Stop();
+
     }
 
     // Update is called once per frame
@@ -19,6 +23,7 @@ public class ButtonCredits : MonoBehaviour
 
 	public void Credits()
 	{
+        buttoncredits.Play();
 		SceneManager.LoadScene("Créditos");
 	}
 }

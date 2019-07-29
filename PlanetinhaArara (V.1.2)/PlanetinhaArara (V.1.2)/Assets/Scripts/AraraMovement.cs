@@ -15,8 +15,10 @@ public class AraraMovement : MonoBehaviour
 	public AudioSource audiosource;
 	public AudioClip collectibleclip;
 	public AudioClip hitclip;
-	private Shake shake;
+	private ScreenManeger screenMan;
 	public Animator hitAnimation;
+
+	
 	
 
 
@@ -26,8 +28,8 @@ public class AraraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
-
+		screenMan = GameObject.FindGameObjectWithTag("ScreenManeger").GetComponent<ScreenManeger>();
+		
 		//speed = 10.0f;
 		audiosource = GetComponent<AudioSource>();
 		life = 3;
@@ -35,6 +37,7 @@ public class AraraMovement : MonoBehaviour
 		//gameOver.SetActive(false);
 		//vitoria.SetActive(false);
 		rb = GetComponent<Rigidbody>();
+
 
 		//rb.velocity = Camera.main.transform.forward + new Vector3(0,0,40);
 
@@ -122,7 +125,8 @@ public class AraraMovement : MonoBehaviour
 			audiosource.clip = hitclip;
 			audiosource.Play();
 
-			shake.CamShake();
+			screenMan.CamShake();
+			screenMan.CamHit();
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");
@@ -133,7 +137,7 @@ public class AraraMovement : MonoBehaviour
 		else if (col.gameObject.CompareTag("Normal Tree")) {
 			life = life - 1;
 			Debug.Log(life);
-			hitAnimation.Play("HitAnimation");
+			//hitAnimation.Play("HitAnimation");
 
 
 			if (life == 0) 
@@ -150,8 +154,9 @@ public class AraraMovement : MonoBehaviour
 			
 			audiosource.clip = hitclip;
 			audiosource.Play();		
-
-			shake.CamShake();
+            
+			screenMan.CamHit();
+			screenMan.CamShake();
 	
 		}
 
@@ -161,8 +166,9 @@ public class AraraMovement : MonoBehaviour
 			
 			audiosource.clip = hitclip;
 			audiosource.Play();
-
-			shake.CamShake();
+			
+			screenMan.CamHit();
+			screenMan.CamShake();
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");

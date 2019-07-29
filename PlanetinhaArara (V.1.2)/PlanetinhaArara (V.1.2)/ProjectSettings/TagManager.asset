@@ -11,6 +11,7 @@ TagManager:
   - Fire Tree
   - Sound Manager
   - ScreenShake
+  - ScreenManeger
   layers:
   - Default
   - TransparentFX

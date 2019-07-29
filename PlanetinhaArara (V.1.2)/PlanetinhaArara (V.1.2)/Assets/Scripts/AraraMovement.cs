@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class AraraMovement : MonoBehaviour
 { 
 	public int araraScore;
-	public float speed;
+	public static float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
 	public static int life;
@@ -16,6 +16,7 @@ public class AraraMovement : MonoBehaviour
 	public AudioClip collectibleclip;
 	public AudioClip hitclip;
 	private Shake shake;
+	public Animation hit;
 	
 
 
@@ -27,7 +28,7 @@ public class AraraMovement : MonoBehaviour
     {
 		shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
 
-
+		//speed = 10.0f;
 		audiosource = GetComponent<AudioSource>();
 		life = 3;
 		araraScore = 0;
@@ -105,6 +106,7 @@ public class AraraMovement : MonoBehaviour
 			
 			StartCoroutine(FadeManeger());	
 		    SceneManager.LoadScene("Derrota");
+			NumAraras.canAdd = true;
 
 			//audiosource.clip = hitclip;
 			//audiosource.Play();
@@ -124,12 +126,15 @@ public class AraraMovement : MonoBehaviour
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");
+			NumAraras.canAdd = true;
 		}
 			
 
 		else if (col.gameObject.CompareTag("Normal Tree")) {
 			life = life - 1;
 			Debug.Log(life);
+			hit.Play();
+
 
 			if (life == 0) 
 			{
@@ -139,6 +144,7 @@ public class AraraMovement : MonoBehaviour
 
 				StartCoroutine(FadeManeger());
 				SceneManager.LoadScene("Derrota");
+				NumAraras.canAdd = true;
 			}
 			
 			
@@ -160,6 +166,7 @@ public class AraraMovement : MonoBehaviour
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");
+			NumAraras.canAdd = true;
 		}
 
 		else if (col.gameObject.CompareTag ("Baby")){

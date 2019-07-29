@@ -16,7 +16,7 @@ public class AraraMovement : MonoBehaviour
 	public AudioClip collectibleclip;
 	public AudioClip hitclip;
 	private Shake shake;
-	public Animation hit;
+	public Animator hitAnimation;
 	
 
 
@@ -133,7 +133,7 @@ public class AraraMovement : MonoBehaviour
 		else if (col.gameObject.CompareTag("Normal Tree")) {
 			life = life - 1;
 			Debug.Log(life);
-			hit.Play();
+			hitAnimation.Play("HitAnimation");
 
 
 			if (life == 0) 

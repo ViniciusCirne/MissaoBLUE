@@ -37,7 +37,7 @@ public class SpawnScript : MonoBehaviour
 
 		else if(scenario == false)
 		{
-            lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 30.0f);
+            lastPosi = new Vector3(xPos, yPos, playerPosi.position.z + 20.0f);
 		}
 
 		

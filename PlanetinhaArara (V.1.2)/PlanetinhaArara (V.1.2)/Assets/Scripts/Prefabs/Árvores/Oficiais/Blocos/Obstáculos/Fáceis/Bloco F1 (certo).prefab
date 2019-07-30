@@ -1335,6 +1335,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 747872915, guid: dd087ccc92806724c846d4799071b0cf, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 952111895, guid: dd087ccc92806724c846d4799071b0cf, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1

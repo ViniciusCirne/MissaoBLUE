@@ -179,6 +179,7 @@ public class AraraMovement : MonoBehaviour
 
 			Score.scoreValue += 1;
 			col.gameObject.SetActive(false);
+			screenMan.TextPop();
 
 			
 			audiosource.clip = collectibleclip;

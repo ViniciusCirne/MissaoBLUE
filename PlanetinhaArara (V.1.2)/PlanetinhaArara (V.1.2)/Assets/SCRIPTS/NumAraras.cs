@@ -51,7 +51,7 @@ public class NumAraras : MonoBehaviour
 	{
 		AraraMovement.speed = 0.0f;
 		canvasNum.SetActive (true);
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(4);
 		canvasNum.SetActive (false);
 		AraraMovement.speed = 10.0f;
 

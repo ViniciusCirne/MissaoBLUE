@@ -10,10 +10,12 @@ public class NumAraras : MonoBehaviour
 	public static int minAraras;
 	public static bool canStartNum;
 	public static bool canAdd;
+	public static bool canStartFire;
 
     // Start is called before the first frame update
     void Start()
     {
+		
 		canvasNum.SetActive(false);
 		minAraras = 10;
 		//num = GetComponent<Text> ();
@@ -54,6 +56,7 @@ public class NumAraras : MonoBehaviour
 		yield return new WaitForSeconds(4);
 		canvasNum.SetActive (false);
 		AraraMovement.speed = 10.0f;
+		NumAraras.canStartFire = true;
 
 	}
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7000124114765730874}
   - component: {fileID: 961853010092133823}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5874065905494618854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3848729495408134508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tronco (1)
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8980051961629422119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grama 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003449360033497225}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 5860817501587728579}
   - component: {fileID: 3249999840363821979}
   - component: {fileID: 5453715133315339714}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 615039775060530947}
   - component: {fileID: 8307490668051193704}
   - component: {fileID: 2639952566788650311}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2870298272723761720}
   - component: {fileID: 1394469860265632743}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731838598369072348}
   - component: {fileID: 4228542360855331130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 2322262355583625269}
   - component: {fileID: 5654797591021024299}
   - component: {fileID: 3163878180798303353}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8158350914102084749}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2807971261597448904}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 7908203030370468295}
   - component: {fileID: 1058988226019002846}
   - component: {fileID: 6352192751169773340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor2,5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 980594536014148679}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.002 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 2413896522039408091}
   - component: {fileID: 1603696373451161016}
   - component: {fileID: 401431585122180578}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 4395128863601900896}
   - component: {fileID: 6190401764692622597}
   - component: {fileID: 1211584517886784372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074821016527925480}
   - component: {fileID: 5109527592360760559}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 1892292164454040119}
   - component: {fileID: 4683266583431774325}
   - component: {fileID: 687848083005659475}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 6073594102283055244}
   - component: {fileID: 330676944017377799}
   - component: {fileID: 3327040411202795961}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4674324717623605954}
   - component: {fileID: 2017711867968368475}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1037824321150046783}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.005 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6144659903504416862}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6723352435603828972}
   - component: {fileID: 5238286848725466126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,7 +1372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6332870209884094160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 2327609263735737728}
   - component: {fileID: 4900397604923439991}
   - component: {fileID: 5298212575866191993}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 4425557659571565968}
   - component: {fileID: 3763316093513960011}
   - component: {fileID: 4252187866704217488}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   - component: {fileID: 2787692059005442981}
   - component: {fileID: 7417657191460824441}
   - component: {fileID: 1308899986808744713}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1635,7 +1635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6946926381523213409}
   - component: {fileID: 800484058864523114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1708,7 +1708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4167690887743703652}
   - component: {fileID: 5646056488784562159}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1776,7 +1776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8177984393050113088}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1810,7 +1810,7 @@ GameObject:
   - component: {fileID: 7309452889973191039}
   - component: {fileID: 6437230733228285948}
   - component: {fileID: 1296993486913345021}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -1902,7 +1902,7 @@ GameObject:
   - component: {fileID: 2930549777625199103}
   - component: {fileID: 9016017154568498117}
   - component: {fileID: 4143634298808797046}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -1993,7 +1993,7 @@ GameObject:
   - component: {fileID: 5303624449687347109}
   - component: {fileID: 7884572424889600972}
   - component: {fileID: 320286108638992472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2068,7 +2068,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4997846093788496297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pedra 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2103,7 +2103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8447160957289017609}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 5166954315470995027}
   - component: {fileID: 2818527772249978228}
   - component: {fileID: 4355626369818728864}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2212,7 +2212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4687154761764912566}
   - component: {fileID: 4604243719603517435}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4194409675323573442}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2332,7 +2332,7 @@ GameObject:
   - component: {fileID: 6775882854718798028}
   - component: {fileID: 6936945111094081015}
   - component: {fileID: 3249807174455743775}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -2421,7 +2421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887384178074287498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979478399248695312}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.002_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 395457144072060638}
   - component: {fileID: 1189941312015084015}
   - component: {fileID: 8374387017028121609}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2562,7 +2562,7 @@ GameObject:
   - component: {fileID: 1522145753853245767}
   - component: {fileID: 2726890015216223091}
   - component: {fileID: 182797223913258124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2637,7 +2637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8737921458994015085}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvore_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2671,7 +2671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2965302249320715713}
   - component: {fileID: 2988534653257606234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2746,7 @@ GameObject:
   - component: {fileID: 6401743685600284693}
   - component: {fileID: 6354251324236691322}
   - component: {fileID: 2765906050481592967}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Fire
   m_Icon: {fileID: 0}
@@ -2835,7 +2835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157213812040179583}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,7 +2866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6560620597180861420}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.021_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2896,7 +2896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6321370444278921776}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2930,7 +2930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4954224490790407112}
   - component: {fileID: 157725962338656243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3003,7 +3003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645760124595202391}
   - component: {fileID: 2929151566431086744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 2914445586637994087}
   - component: {fileID: 8648021174738371207}
   - component: {fileID: 5411920081705114016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3149,7 +3149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500358950914951358}
   - component: {fileID: 6242022493678578902}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6564733100316470917}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flor 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3255,7 +3255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6972170640598833337}
   - component: {fileID: 2258858570519299932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3327,7 +3327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7841952337868636505}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvore_2ok (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3362,7 +3362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2849044635188409918}
   - component: {fileID: 8253230680141174744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3435,7 +3435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3139236632972370882}
   - component: {fileID: 9047658810387939427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3506,7 +3506,7 @@ GameObject:
   - component: {fileID: 7138928053291277859}
   - component: {fileID: 2786795700730567097}
   - component: {fileID: 5498170058232085861}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -3595,7 +3595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2827448253373923021}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.018_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3627,7 +3627,7 @@ GameObject:
   - component: {fileID: 3387166593136560373}
   - component: {fileID: 3771153225027055854}
   - component: {fileID: 1260240055755458909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3702,7 +3702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8626264725021743419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3736,7 +3736,7 @@ GameObject:
   - component: {fileID: 4475651004039276238}
   - component: {fileID: 129846500802569994}
   - component: {fileID: 20867815986340410}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3811,7 +3811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2224703810765007417}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3844,7 +3844,7 @@ GameObject:
   - component: {fileID: 5499477185663636454}
   - component: {fileID: 5862032158384801034}
   - component: {fileID: 5941793175240938338}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3919,7 +3919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6727753666178763292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'Grama 1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3953,7 +3953,7 @@ GameObject:
   - component: {fileID: 98738105835834596}
   - component: {fileID: 4103893438528262921}
   - component: {fileID: 3490028824472173756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4029,7 +4029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4565352973199925041}
   - component: {fileID: 9172505750980141673}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4099,7 +4099,7 @@ GameObject:
   - component: {fileID: 7760740700705716356}
   - component: {fileID: 2143691576057908107}
   - component: {fileID: 336682049326171203}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4177,7 +4177,7 @@ GameObject:
   - component: {fileID: 764362312214024779}
   - component: {fileID: 4765801625069661505}
   - component: {fileID: 3636400477010427448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere.001
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -4266,7 +4266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7565916767007031312}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flor 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4299,7 +4299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5864846756212561423}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4331,7 +4331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3225782905119574994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4368,7 +4368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476410845540138634}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Armature.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4399,7 +4399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2180689108446298993}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4432,7 +4432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4323828942458254025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvore_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4465,7 +4465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9188719787946296541}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4496,7 +4496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3584840110190691190}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4531,7 +4531,7 @@ GameObject:
   - component: {fileID: 2270768136524991828}
   - component: {fileID: 1043053631603329108}
   - component: {fileID: 7925923291273206395}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: folha comprida.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4607,7 +4607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5014276050626456766}
   - component: {fileID: 5440537275505942050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2111398320718154398}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4710,7 +4710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2711355666632041992}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flor 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4747,7 +4747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4325974962458704394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4780,7 +4780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 334515777148726101}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pedra 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4817,7 +4817,7 @@ GameObject:
   - component: {fileID: 503439078060174871}
   - component: {fileID: 3348811095039613700}
   - component: {fileID: 6466776181983491226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4892,7 +4892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1358111444930742507}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tronco (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4924,7 +4924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7670362635218457063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4956,7 +4956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335422473264948243}
   - component: {fileID: 8607940667564051308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 430277549400813802}
   - component: {fileID: 8226372250717959253}
   - component: {fileID: 5921636071305871662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor2,5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5102,7 +5102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5925861272556339419}
   - component: {fileID: 3419629191897244071}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5174,7 +5174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1771498046808820491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5207,7 +5207,7 @@ GameObject:
   - component: {fileID: 1566942545734370934}
   - component: {fileID: 7811429497473682166}
   - component: {fileID: 2494623073285529188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5282,7 +5282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 931266835625949108}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tronco (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5314,7 +5314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 170120553264521530}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.013_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5346,7 +5346,7 @@ GameObject:
   - component: {fileID: 9034012890853174964}
   - component: {fileID: 2826146960715232835}
   - component: {fileID: 7725292607083838638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5423,7 @@ GameObject:
   - component: {fileID: 1700371492316885709}
   - component: {fileID: 8472324156939691811}
   - component: {fileID: 7270808105530881784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5498,7 +5498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7704212667160449191}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.003 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5529,7 +5529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6826207938060180776}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Armature.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5563,7 +5563,7 @@ GameObject:
   - component: {fileID: 6025240636246921143}
   - component: {fileID: 2604117118927952888}
   - component: {fileID: 5707318009602710427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5639,7 +5639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500736863177012109}
   - component: {fileID: 6777020949197390072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5714,7 +5714,7 @@ GameObject:
   - component: {fileID: 4458825464528791431}
   - component: {fileID: 7445012284291680618}
   - component: {fileID: 1408328722380531243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -5804,7 +5804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6329741945428802870}
   - component: {fileID: 2203132928981919964}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "F3 Cen\xE1rio"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5875,7 +5875,7 @@ GameObject:
   - component: {fileID: 2385765864563852663}
   - component: {fileID: 8695889006261027109}
   - component: {fileID: 434570945609610546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5951,7 +5951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4176548223887604755}
   - component: {fileID: 4877104094062443031}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6023,7 +6023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2099599708653420562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pedra 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6058,7 +6058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4488240877278276810}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6089,7 +6089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6463637914097140886}
   - component: {fileID: 2091508254785808375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6163,7 +6163,7 @@ GameObject:
   - component: {fileID: 46237626848898859}
   - component: {fileID: 6996072257723257952}
   - component: {fileID: 8227665118079929356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6238,7 +6238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614840967087087195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6268,7 +6268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1332231444265095230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6301,7 +6301,7 @@ GameObject:
   - component: {fileID: 8572363002735580697}
   - component: {fileID: 7792332111155044689}
   - component: {fileID: 5677100952222301026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6377,7 +6377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2948544199197149827}
   - component: {fileID: 8638761429402663670}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6445,7 +6445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4422180700685654481}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6476,7 +6476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8877799655307604606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6507,7 +6507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2949866790665080082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvore_2ok (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6543,7 +6543,7 @@ GameObject:
   - component: {fileID: 7409612601350430157}
   - component: {fileID: 2810765235349065839}
   - component: {fileID: 2321465918698020682}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6619,7 +6619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4672930513526751072}
   - component: {fileID: 286110059662074562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6688,7 +6688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3180428309699464406}
   - component: {fileID: 599827524275649013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6760,7 +6760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4646060323039586625}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.005_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6790,7 +6790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6452606560030927748}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6821,7 +6821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5615636797555666156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6852,7 +6852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7023795113552945774}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvere_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6888,7 +6888,7 @@ GameObject:
   - component: {fileID: 7861714876972239980}
   - component: {fileID: 7930618049742529736}
   - component: {fileID: 2805823506735794115}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6964,7 +6964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4748482078743924964}
   - component: {fileID: 2029429384412405375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7032,7 +7032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1725356682681666099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arvere_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7068,7 +7068,7 @@ GameObject:
   - component: {fileID: 2768676367187833977}
   - component: {fileID: 1029854909657586352}
   - component: {fileID: 4106802332295622060}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: folha comprida.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7143,7 +7143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6115555182547679103}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7177,7 +7177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8101975647423904623}
   - component: {fileID: 7580213853841717150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7260,7 +7260,7 @@ GameObject:
   - component: {fileID: 6564189730987088571}
   - component: {fileID: 2745890414886639810}
   - component: {fileID: 3282921315849147843}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7335,7 +7335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5885620986448288943}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.004 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7368,7 +7368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5984327714581577275}
   - component: {fileID: 6683699124699745131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7441,7 +7441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7571083707817900060}
   - component: {fileID: 628469203214562126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7516,7 +7516,7 @@ GameObject:
   - component: {fileID: 8374959102205727844}
   - component: {fileID: 2921417409433352563}
   - component: {fileID: 7732285855132546749}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -7607,7 +7607,7 @@ GameObject:
   - component: {fileID: 2470586566822037633}
   - component: {fileID: 2512671873901190482}
   - component: {fileID: 6346873975546914883}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7682,7 +7682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4821223375026429811}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7717,7 +7717,7 @@ GameObject:
   - component: {fileID: 8261157019606067826}
   - component: {fileID: 7575062009946129815}
   - component: {fileID: 2317679283341076682}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7793,7 +7793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2431741046417360491}
   - component: {fileID: 3455717739032369909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7868,7 +7868,7 @@ GameObject:
   - component: {fileID: 278339586005177287}
   - component: {fileID: 7196609434679886372}
   - component: {fileID: 2921490574873971791}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -7957,7 +7957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3393804914952508478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7990,7 +7990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4008323384001004209}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8023,7 +8023,7 @@ GameObject:
   - component: {fileID: 2238560529038256856}
   - component: {fileID: 1879652012844452917}
   - component: {fileID: 7372043415507037078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8099,7 +8099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767870875731354530}
   - component: {fileID: 4147953442866381857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8173,7 +8173,7 @@ GameObject:
   - component: {fileID: 3618358706126453485}
   - component: {fileID: 3030755686887600001}
   - component: {fileID: 5813458002366843178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8248,7 +8248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7318141646026832972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8280,7 +8280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5804571866031465649}
   - component: {fileID: 8928834711315375347}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8348,7 +8348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7164996706349585191}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flor 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8381,7 +8381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172175401534942569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8414,7 +8414,7 @@ GameObject:
   - component: {fileID: 5940821853526638949}
   - component: {fileID: 6174524270847864175}
   - component: {fileID: 9085421796133228082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: arara_animada
   m_TagString: Baby
   m_Icon: {fileID: 0}
@@ -8487,7 +8487,7 @@ GameObject:
   - component: {fileID: 4457490704515667522}
   - component: {fileID: 4188493673539040195}
   - component: {fileID: 3441569109336857186}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -8577,7 +8577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6601709707050466599}
   - component: {fileID: 1033645616852409609}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8680,7 +8680,7 @@ GameObject:
   - component: {fileID: 3226590352004402468}
   - component: {fileID: 9119787951916689213}
   - component: {fileID: 4685374135890655770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8755,7 +8755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2397029663228791963}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8789,7 +8789,7 @@ GameObject:
   - component: {fileID: 9137709144149433888}
   - component: {fileID: 5305357138481280506}
   - component: {fileID: 6799911576931638008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -8878,7 +8878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9100822377625779818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8911,7 +8911,7 @@ GameObject:
   - component: {fileID: 4128037633920337959}
   - component: {fileID: 6077271342515406845}
   - component: {fileID: 2455871421682099038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8986,7 +8986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9171119237903432029}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9018,7 +9018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6764330289110721749}
   - component: {fileID: 1317839434536173702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9090,7 +9090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 410102109682999048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grama 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9124,7 +9124,7 @@ GameObject:
   - component: {fileID: 1590362585307600305}
   - component: {fileID: 4422411925547459475}
   - component: {fileID: 2770625299817012517}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Icosphere.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9200,7 +9200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3986592758281946975}
   - component: {fileID: 5099440926356952090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9269,7 +9269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834144672583898415}
   - component: {fileID: 6744650848458360832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9341,7 +9341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8359480905123504098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grama 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9373,7 +9373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7868813735922158189}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9408,7 +9408,7 @@ GameObject:
   - component: {fileID: 7236151279991263158}
   - component: {fileID: 5632614541541743230}
   - component: {fileID: 1320055992860985773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9485,7 +9485,7 @@ GameObject:
   - component: {fileID: 4853001955579445355}
   - component: {fileID: 2469628165011450317}
   - component: {fileID: 3963933307885433668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fogo Novo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14183,7 +14183,7 @@ GameObject:
   - component: {fileID: 4863217721226779663}
   - component: {fileID: 4690192311960381780}
   - component: {fileID: 8470891979569133253}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14259,7 +14259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8365191885469149075}
   - component: {fileID: 5491263947383905532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14327,7 +14327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122239414279237385}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14362,7 +14362,7 @@ GameObject:
   - component: {fileID: 6326846712397156519}
   - component: {fileID: 1911065347829865574}
   - component: {fileID: 4848402011997886935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14440,7 +14440,7 @@ GameObject:
   - component: {fileID: 2527168221793901789}
   - component: {fileID: 6040732676541991426}
   - component: {fileID: 662796070836454604}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -14531,7 +14531,7 @@ GameObject:
   - component: {fileID: 1084037547273505895}
   - component: {fileID: 2247213871184811596}
   - component: {fileID: 6566337990814933483}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14606,7 +14606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9057516865278182584}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pedra 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14641,7 +14641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6136432212384276734}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.007_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14671,7 +14671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3343396237079951403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grama 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14705,7 +14705,7 @@ GameObject:
   - component: {fileID: 2140694024804275902}
   - component: {fileID: 4261343469020415194}
   - component: {fileID: 1137358624885187973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fogo Novo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19402,7 +19402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506004034581035662}
   - component: {fileID: 535494417516428911}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19472,7 +19472,7 @@ GameObject:
   - component: {fileID: 2325617345673945765}
   - component: {fileID: 7965088026448843072}
   - component: {fileID: 7485673319155746474}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: folha comprida.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19547,7 +19547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3294346166568031756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001_end 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19577,7 +19577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2935102796450432072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19609,7 +19609,7 @@ GameObject:
   - component: {fileID: 2427570960182982965}
   - component: {fileID: 6723466294194107483}
   - component: {fileID: 9107815771154113496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19684,7 +19684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142450008309905950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19715,7 +19715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 471515582171056007}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19748,7 +19748,7 @@ GameObject:
   - component: {fileID: 130539058246981459}
   - component: {fileID: 2383781698211615656}
   - component: {fileID: 6984977087027320422}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grama_semcontorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19825,7 +19825,7 @@ GameObject:
   - component: {fileID: 835046997407168641}
   - component: {fileID: 7014254307618540619}
   - component: {fileID: 1082425798037113878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19901,7 +19901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732638295746714078}
   - component: {fileID: 9132705523711048315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19970,7 +19970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166641884415963462}
   - component: {fileID: 7513958821357491985}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20054,7 +20054,7 @@ GameObject:
   - component: {fileID: 1920872279139226487}
   - component: {fileID: 8228230095699621700}
   - component: {fileID: 599941240816777143}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.001
   m_TagString: Normal Tree
   m_Icon: {fileID: 0}
@@ -20144,7 +20144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5704305582137032493}
   - component: {fileID: 3039105747944428615}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20216,7 +20216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4786393747674797280}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Armature.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20253,7 +20253,7 @@ GameObject:
   - component: {fileID: 3859932382969807858}
   - component: {fileID: 5523784995192371607}
   - component: {fileID: 7701091646151390838}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: saaaaaaaaaaaaa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20330,7 +20330,7 @@ GameObject:
   - component: {fileID: 5536430968946116865}
   - component: {fileID: 889566667982447791}
   - component: {fileID: 538587406529587915}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ramo.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17,6 +17,12 @@ public class FireMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       rb.velocity = transform.forward * speed;
+		if (AraraMovement.speed > 0.0f) {
+			rb.velocity = transform.forward * speed;
+       }
+		else {
+			rb.velocity = transform.forward * 0;
+		}
+       
     }
 }

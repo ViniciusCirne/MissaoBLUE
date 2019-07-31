@@ -56,7 +56,7 @@ public class Tutorial : MonoBehaviour
 			yield return new WaitForSeconds(velocidade);
 		}
 
-		yield return new WaitForSeconds(1); //5
+		yield return new WaitForSeconds(3); //5
 		texto.text = "";
 		index++;
 
@@ -66,7 +66,7 @@ public class Tutorial : MonoBehaviour
 			yield return new WaitForSeconds(velocidade);
 		}
 
-		yield return new WaitForSeconds(1); //2
+		yield return new WaitForSeconds(2); //2
 
 		NumAraras.canStartNum = true;
 		//AraraMovement.speed = 10.0f;

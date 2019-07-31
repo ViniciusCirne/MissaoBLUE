@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class AraraMovement : MonoBehaviour
 { 
-	public int araraScore;
+	public static int araraScore;
 	public static float speed;
 	private Rigidbody rb;
 	public GameObject gameOver;
@@ -17,6 +17,7 @@ public class AraraMovement : MonoBehaviour
 	public AudioClip hitclip;
 	private ScreenManeger screenMan;
 	public Animator hitAnimation;
+
 
 	
 	
@@ -29,7 +30,7 @@ public class AraraMovement : MonoBehaviour
     void Start()
     {
 		screenMan = GameObject.FindGameObjectWithTag("ScreenManeger").GetComponent<ScreenManeger>();
-		
+		araraScore = 0;
 		//speed = 10.0f;
 		audiosource = GetComponent<AudioSource>();
 		life = 3;

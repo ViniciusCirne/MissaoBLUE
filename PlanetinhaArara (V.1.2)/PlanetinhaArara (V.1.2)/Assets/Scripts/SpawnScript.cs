@@ -108,7 +108,7 @@ public class SpawnScript : MonoBehaviour
 		yield return new WaitForSeconds(20);
 		//canSpawn = false;
 		//vitoria = true;
-
+        AraraCounter.totalAraras += AraraMovement.araraScore;
 		SceneManager.LoadScene("Vitoria");
 		NumAraras.canAdd = true;
 	}

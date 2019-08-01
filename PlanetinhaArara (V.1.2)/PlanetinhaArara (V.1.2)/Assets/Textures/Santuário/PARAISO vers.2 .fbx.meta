@@ -1,0 +1,1372 @@
+fileFormatVersion: 2
+guid: 04d4d92aefb4d63468e630c93ff4266d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arbusto 1.000
+    100002: arbusto 1.001
+    100004: arbusto 1.002
+    100006: arbusto 1.003
+    100008: arbusto 1.004
+    100010: arbusto 1.005
+    100012: Armature
+    100014: Armature.001
+    100016: Armature.002
+    100018: Armature.004
+    100020: Bone
+    100022: Bone 1
+    100024: Bone 2
+    100026: Bone 3
+    100028: Bone.001
+    100030: Bone.001 1
+    100032: Bone.001 2
+    100034: Bone.001 3
+    100036: Bone.001_end
+    100038: Bone.001_end 1
+    100040: Bone.002
+    100042: Bone.002 1
+    100044: Bone.002_end
+    100046: Bone.003
+    100048: Bone.003 1
+    100050: Bone.003_end
+    100052: Bone.004
+    100054: Bone.004 1
+    100056: Bone.005
+    100058: Bone.005 1
+    100060: Bone.005_end
+    100062: Bone.006
+    100064: Bone.007
+    100066: Bone.007_end
+    100068: Bone.008
+    100070: Bone.009
+    100072: Bone.010
+    100074: Bone.010_end
+    100076: Bone.011
+    100078: Bone.012
+    100080: Bone.013
+    100082: Bone.013_end
+    100084: Bone.014
+    100086: Bone.015
+    100088: Bone.016
+    100090: Bone.017
+    100092: Bone.018
+    100094: Bone.018_end
+    100096: Bone.019
+    100098: Bone.020
+    100100: Bone.021
+    100102: Bone.021_end
+    100104: Camera
+    100106: "cip\xF3 2"
+    100108: "cip\xF3 2.002"
+    100110: "cip\xF33"
+    100112: Cube
+    100114: Cube.001
+    100116: Cube.003
+    100118: Cube.009
+    100120: Cylinder
+    100122: Cylinder.001
+    100124: Cylinder.002
+    100126: Cylinder.003
+    100128: Cylinder.004
+    100130: Cylinder.005
+    100132: Cylinder.006
+    100134: Cylinder.007
+    100136: Cylinder.008
+    100138: Cylinder.009
+    100140: Cylinder.010
+    100142: Cylinder.011
+    100144: Cylinder.012
+    100146: Cylinder.013
+    100148: Cylinder.014
+    100150: Cylinder.015
+    100152: Cylinder.016
+    100154: Cylinder.017
+    100156: Cylinder.018
+    100158: Cylinder.019
+    100160: Cylinder.020
+    100162: Cylinder.021
+    100164: Cylinder.022
+    100166: Cylinder.023
+    100168: Cylinder.024
+    100170: Cylinder.025
+    100172: Cylinder.026
+    100174: Cylinder.027
+    100176: Cylinder.028
+    100178: Cylinder.029
+    100180: Cylinder.032
+    100182: Cylinder.036
+    100184: Cylinder.037
+    100186: Cylinder.039
+    100188: Cylinder.046
+    100190: Cylinder.047
+    100192: Cylinder.049
+    100194: Cylinder.050
+    100196: Cylinder.051
+    100198: Cylinder.054
+    100200: "C\xEDrculo.000"
+    100202: "C\xEDrculo.001"
+    100204: "C\xEDrculo.002"
+    100206: "C\xEDrculo.006"
+    100208: "C\xEDrculo.008"
+    100210: "C\xEDrculo.009"
+    100212: flor1 textu.000
+    100214: flor1 textu.001
+    100216: flor1 textu.002
+    100218: flor1 textu.003
+    100220: flor1 textu.004
+    100222: flor1 textu.005
+    100224: flor1 textu.006
+    100226: flor1 textu.007
+    100228: flor1 textu.008
+    100230: flor1 textu.009
+    100232: flor1 textu.010
+    100234: flor1 textur.000
+    100236: flor1 textur.001
+    100238: flor1 textur.002
+    100240: flor1 textur.003
+    100242: flor1 textur.004
+    100244: flor1 textur.005
+    100246: flor1 textur.006
+    100248: flor1 textur.007
+    100250: flor1 textura.000
+    100252: flor1 textura.001
+    100254: flor1 textura.002
+    100256: flor1 textura.003
+    100258: flor1 textura.004
+    100260: flor1 textura.005
+    100262: flor1 textura.006
+    100264: flor1 textura.007
+    100266: flor1 textura.008
+    100268: flor1 textura.009
+    100270: grama 2 (1)
+    100272: grama 2 (1).001
+    100274: grama2.000
+    100276: grama2.001
+    100278: grama2.002
+    100280: grama2.003
+    100282: grama2.004
+    100284: grama2.005
+    100286: grama2.006
+    100288: grama2.007
+    100290: grama2.008
+    100292: grama2.009
+    100294: grama2.010
+    100296: grama2.011
+    100298: grama2.012
+    100300: grama2.013
+    100302: grama2.014
+    100304: grama2.015
+    100306: grama2.016
+    100308: grama2.017
+    100310: grama2.018
+    100312: grama2.019
+    100314: grama2.020
+    100316: Icosphere
+    100318: Icosphere.000
+    100320: Icosphere.001
+    100322: Icosphere.002
+    100324: Icosphere.003
+    100326: Icosphere.004
+    100328: Icosphere.005
+    100330: Icosphere.006
+    100332: Icosphere.007
+    100334: Icosphere.008
+    100336: Icosphere.009
+    100338: Icosphere.010
+    100340: Icosphere.011
+    100342: Icosphere.012
+    100344: Icosphere.013
+    100346: Icosphere.014
+    100348: Icosphere.015
+    100350: Icosphere.016
+    100352: Icosphere.017
+    100354: Icosphere.018
+    100356: Icosphere.019
+    100358: Icosphere.020
+    100360: Icosphere.021
+    100362: Icosphere.022
+    100364: Icosphere.023
+    100366: Icosphere.024
+    100368: Icosphere.025
+    100370: Icosphere.026
+    100372: Icosphere.027
+    100374: Icosphere.028
+    100376: Icosphere.029
+    100378: Icosphere.030
+    100380: Icosphere.033
+    100382: Icosphere.037
+    100384: Icosphere.038
+    100386: Icosphere.040
+    100388: Icosphere.044
+    100390: Icosphere.048
+    100392: Icosphere.049
+    100394: Icosphere.050
+    100396: Icosphere.051
+    100398: Icosphere.053
+    100400: Icosphere.054
+    100402: Icosphere.055
+    100404: Icosphere.058
+    100406: Icosphere.059
+    100408: Lamp
+    100410: //RootNode
+    400000: arbusto 1.000
+    400002: arbusto 1.001
+    400004: arbusto 1.002
+    400006: arbusto 1.003
+    400008: arbusto 1.004
+    400010: arbusto 1.005
+    400012: Armature
+    400014: Armature.001
+    400016: Armature.002
+    400018: Armature.004
+    400020: Bone
+    400022: Bone 1
+    400024: Bone 2
+    400026: Bone 3
+    400028: Bone.001
+    400030: Bone.001 1
+    400032: Bone.001 2
+    400034: Bone.001 3
+    400036: Bone.001_end
+    400038: Bone.001_end 1
+    400040: Bone.002
+    400042: Bone.002 1
+    400044: Bone.002_end
+    400046: Bone.003
+    400048: Bone.003 1
+    400050: Bone.003_end
+    400052: Bone.004
+    400054: Bone.004 1
+    400056: Bone.005
+    400058: Bone.005 1
+    400060: Bone.005_end
+    400062: Bone.006
+    400064: Bone.007
+    400066: Bone.007_end
+    400068: Bone.008
+    400070: Bone.009
+    400072: Bone.010
+    400074: Bone.010_end
+    400076: Bone.011
+    400078: Bone.012
+    400080: Bone.013
+    400082: Bone.013_end
+    400084: Bone.014
+    400086: Bone.015
+    400088: Bone.016
+    400090: Bone.017
+    400092: Bone.018
+    400094: Bone.018_end
+    400096: Bone.019
+    400098: Bone.020
+    400100: Bone.021
+    400102: Bone.021_end
+    400104: Camera
+    400106: "cip\xF3 2"
+    400108: "cip\xF3 2.002"
+    400110: "cip\xF33"
+    400112: Cube
+    400114: Cube.001
+    400116: Cube.003
+    400118: Cube.009
+    400120: Cylinder
+    400122: Cylinder.001
+    400124: Cylinder.002
+    400126: Cylinder.003
+    400128: Cylinder.004
+    400130: Cylinder.005
+    400132: Cylinder.006
+    400134: Cylinder.007
+    400136: Cylinder.008
+    400138: Cylinder.009
+    400140: Cylinder.010
+    400142: Cylinder.011
+    400144: Cylinder.012
+    400146: Cylinder.013
+    400148: Cylinder.014
+    400150: Cylinder.015
+    400152: Cylinder.016
+    400154: Cylinder.017
+    400156: Cylinder.018
+    400158: Cylinder.019
+    400160: Cylinder.020
+    400162: Cylinder.021
+    400164: Cylinder.022
+    400166: Cylinder.023
+    400168: Cylinder.024
+    400170: Cylinder.025
+    400172: Cylinder.026
+    400174: Cylinder.027
+    400176: Cylinder.028
+    400178: Cylinder.029
+    400180: Cylinder.032
+    400182: Cylinder.036
+    400184: Cylinder.037
+    400186: Cylinder.039
+    400188: Cylinder.046
+    400190: Cylinder.047
+    400192: Cylinder.049
+    400194: Cylinder.050
+    400196: Cylinder.051
+    400198: Cylinder.054
+    400200: "C\xEDrculo.000"
+    400202: "C\xEDrculo.001"
+    400204: "C\xEDrculo.002"
+    400206: "C\xEDrculo.006"
+    400208: "C\xEDrculo.008"
+    400210: "C\xEDrculo.009"
+    400212: flor1 textu.000
+    400214: flor1 textu.001
+    400216: flor1 textu.002
+    400218: flor1 textu.003
+    400220: flor1 textu.004
+    400222: flor1 textu.005
+    400224: flor1 textu.006
+    400226: flor1 textu.007
+    400228: flor1 textu.008
+    400230: flor1 textu.009
+    400232: flor1 textu.010
+    400234: flor1 textur.000
+    400236: flor1 textur.001
+    400238: flor1 textur.002
+    400240: flor1 textur.003
+    400242: flor1 textur.004
+    400244: flor1 textur.005
+    400246: flor1 textur.006
+    400248: flor1 textur.007
+    400250: flor1 textura.000
+    400252: flor1 textura.001
+    400254: flor1 textura.002
+    400256: flor1 textura.003
+    400258: flor1 textura.004
+    400260: flor1 textura.005
+    400262: flor1 textura.006
+    400264: flor1 textura.007
+    400266: flor1 textura.008
+    400268: flor1 textura.009
+    400270: grama 2 (1)
+    400272: grama 2 (1).001
+    400274: grama2.000
+    400276: grama2.001
+    400278: grama2.002
+    400280: grama2.003
+    400282: grama2.004
+    400284: grama2.005
+    400286: grama2.006
+    400288: grama2.007
+    400290: grama2.008
+    400292: grama2.009
+    400294: grama2.010
+    400296: grama2.011
+    400298: grama2.012
+    400300: grama2.013
+    400302: grama2.014
+    400304: grama2.015
+    400306: grama2.016
+    400308: grama2.017
+    400310: grama2.018
+    400312: grama2.019
+    400314: grama2.020
+    400316: Icosphere
+    400318: Icosphere.000
+    400320: Icosphere.001
+    400322: Icosphere.002
+    400324: Icosphere.003
+    400326: Icosphere.004
+    400328: Icosphere.005
+    400330: Icosphere.006
+    400332: Icosphere.007
+    400334: Icosphere.008
+    400336: Icosphere.009
+    400338: Icosphere.010
+    400340: Icosphere.011
+    400342: Icosphere.012
+    400344: Icosphere.013
+    400346: Icosphere.014
+    400348: Icosphere.015
+    400350: Icosphere.016
+    400352: Icosphere.017
+    400354: Icosphere.018
+    400356: Icosphere.019
+    400358: Icosphere.020
+    400360: Icosphere.021
+    400362: Icosphere.022
+    400364: Icosphere.023
+    400366: Icosphere.024
+    400368: Icosphere.025
+    400370: Icosphere.026
+    400372: Icosphere.027
+    400374: Icosphere.028
+    400376: Icosphere.029
+    400378: Icosphere.030
+    400380: Icosphere.033
+    400382: Icosphere.037
+    400384: Icosphere.038
+    400386: Icosphere.040
+    400388: Icosphere.044
+    400390: Icosphere.048
+    400392: Icosphere.049
+    400394: Icosphere.050
+    400396: Icosphere.051
+    400398: Icosphere.053
+    400400: Icosphere.054
+    400402: Icosphere.055
+    400404: Icosphere.058
+    400406: Icosphere.059
+    400408: Lamp
+    400410: //RootNode
+    2000000: Camera
+    2100000: Material.030
+    2100002: Material.026
+    2100004: Material.002
+    2100006: Material
+    2100008: Material.029
+    2100010: _
+    2100012: Material.013
+    2100014: grama 2 (1)
+    2100016: Material.027
+    2100018: Material.005
+    2100020: grama2
+    2100022: flor1 textura
+    2100024: flor1 textur
+    2100026: flor1 textu
+    2100028: arbusto 1
+    2100030: Material.014
+    2100032: Material.015
+    2100034: Material.004
+    2100036: Material.003
+    2100038: Material.007
+    2100040: Material.006
+    2100042: "cip\xF3 2"
+    2100044: "cip\xF33"
+    2100046: Material.019
+    2100048: pata.001
+    2100050: Material.022
+    2100052: Material.021
+    2100054: tronco doido
+    2100056: folha.002
+    2100058: Material.001
+    2100060: Material.000
+    2300000: arbusto 1.000
+    2300002: arbusto 1.001
+    2300004: arbusto 1.002
+    2300006: arbusto 1.003
+    2300008: arbusto 1.004
+    2300010: arbusto 1.005
+    2300012: "cip\xF3 2"
+    2300014: "cip\xF3 2.002"
+    2300016: "cip\xF33"
+    2300018: Cylinder
+    2300020: Cylinder.001
+    2300022: Cylinder.002
+    2300024: Cylinder.003
+    2300026: Cylinder.004
+    2300028: Cylinder.005
+    2300030: Cylinder.006
+    2300032: Cylinder.007
+    2300034: Cylinder.008
+    2300036: Cylinder.009
+    2300038: Cylinder.010
+    2300040: Cylinder.011
+    2300042: Cylinder.012
+    2300044: Cylinder.013
+    2300046: Cylinder.014
+    2300048: Cylinder.015
+    2300050: Cylinder.016
+    2300052: Cylinder.017
+    2300054: Cylinder.018
+    2300056: Cylinder.019
+    2300058: Cylinder.020
+    2300060: Cylinder.021
+    2300062: Cylinder.022
+    2300064: Cylinder.023
+    2300066: Cylinder.024
+    2300068: Cylinder.025
+    2300070: Cylinder.026
+    2300072: Cylinder.027
+    2300074: Cylinder.028
+    2300076: Cylinder.029
+    2300078: Cylinder.032
+    2300080: Cylinder.036
+    2300082: Cylinder.037
+    2300084: Cylinder.039
+    2300086: Cylinder.046
+    2300088: Cylinder.047
+    2300090: Cylinder.049
+    2300092: Cylinder.050
+    2300094: Cylinder.051
+    2300096: Cylinder.054
+    2300098: "C\xEDrculo.000"
+    2300100: "C\xEDrculo.001"
+    2300102: "C\xEDrculo.002"
+    2300104: "C\xEDrculo.006"
+    2300106: "C\xEDrculo.008"
+    2300108: "C\xEDrculo.009"
+    2300110: flor1 textu.000
+    2300112: flor1 textu.001
+    2300114: flor1 textu.002
+    2300116: flor1 textu.003
+    2300118: flor1 textu.004
+    2300120: flor1 textu.005
+    2300122: flor1 textu.006
+    2300124: flor1 textu.007
+    2300126: flor1 textu.008
+    2300128: flor1 textu.009
+    2300130: flor1 textu.010
+    2300132: flor1 textur.000
+    2300134: flor1 textur.001
+    2300136: flor1 textur.002
+    2300138: flor1 textur.003
+    2300140: flor1 textur.004
+    2300142: flor1 textur.005
+    2300144: flor1 textur.006
+    2300146: flor1 textur.007
+    2300148: flor1 textura.000
+    2300150: flor1 textura.001
+    2300152: flor1 textura.002
+    2300154: flor1 textura.003
+    2300156: flor1 textura.004
+    2300158: flor1 textura.005
+    2300160: flor1 textura.006
+    2300162: flor1 textura.007
+    2300164: flor1 textura.008
+    2300166: flor1 textura.009
+    2300168: grama 2 (1)
+    2300170: grama 2 (1).001
+    2300172: grama2.000
+    2300174: grama2.001
+    2300176: grama2.002
+    2300178: grama2.003
+    2300180: grama2.004
+    2300182: grama2.005
+    2300184: grama2.006
+    2300186: grama2.007
+    2300188: grama2.008
+    2300190: grama2.009
+    2300192: grama2.010
+    2300194: grama2.011
+    2300196: grama2.012
+    2300198: grama2.013
+    2300200: grama2.014
+    2300202: grama2.015
+    2300204: grama2.016
+    2300206: grama2.017
+    2300208: grama2.018
+    2300210: grama2.019
+    2300212: grama2.020
+    2300214: Icosphere
+    2300216: Icosphere.000
+    2300218: Icosphere.001
+    2300220: Icosphere.002
+    2300222: Icosphere.003
+    2300224: Icosphere.004
+    2300226: Icosphere.005
+    2300228: Icosphere.006
+    2300230: Icosphere.007
+    2300232: Icosphere.008
+    2300234: Icosphere.009
+    2300236: Icosphere.010
+    2300238: Icosphere.011
+    2300240: Icosphere.012
+    2300242: Icosphere.013
+    2300244: Icosphere.014
+    2300246: Icosphere.015
+    2300248: Icosphere.016
+    2300250: Icosphere.017
+    2300252: Icosphere.018
+    2300254: Icosphere.019
+    2300256: Icosphere.020
+    2300258: Icosphere.021
+    2300260: Icosphere.022
+    2300262: Icosphere.023
+    2300264: Icosphere.024
+    2300266: Icosphere.025
+    2300268: Icosphere.026
+    2300270: Icosphere.027
+    2300272: Icosphere.028
+    2300274: Icosphere.029
+    2300276: Icosphere.030
+    2300278: Icosphere.033
+    2300280: Icosphere.037
+    2300282: Icosphere.038
+    2300284: Icosphere.040
+    2300286: Icosphere.044
+    2300288: Icosphere.048
+    2300290: Icosphere.049
+    2300292: Icosphere.050
+    2300294: Icosphere.051
+    2300296: Icosphere.053
+    2300298: Icosphere.054
+    2300300: Icosphere.055
+    2300302: Icosphere.058
+    2300304: Icosphere.059
+    3300000: arbusto 1.000
+    3300002: arbusto 1.001
+    3300004: arbusto 1.002
+    3300006: arbusto 1.003
+    3300008: arbusto 1.004
+    3300010: arbusto 1.005
+    3300012: "cip\xF3 2"
+    3300014: "cip\xF3 2.002"
+    3300016: "cip\xF33"
+    3300018: Cylinder
+    3300020: Cylinder.001
+    3300022: Cylinder.002
+    3300024: Cylinder.003
+    3300026: Cylinder.004
+    3300028: Cylinder.005
+    3300030: Cylinder.006
+    3300032: Cylinder.007
+    3300034: Cylinder.008
+    3300036: Cylinder.009
+    3300038: Cylinder.010
+    3300040: Cylinder.011
+    3300042: Cylinder.012
+    3300044: Cylinder.013
+    3300046: Cylinder.014
+    3300048: Cylinder.015
+    3300050: Cylinder.016
+    3300052: Cylinder.017
+    3300054: Cylinder.018
+    3300056: Cylinder.019
+    3300058: Cylinder.020
+    3300060: Cylinder.021
+    3300062: Cylinder.022
+    3300064: Cylinder.023
+    3300066: Cylinder.024
+    3300068: Cylinder.025
+    3300070: Cylinder.026
+    3300072: Cylinder.027
+    3300074: Cylinder.028
+    3300076: Cylinder.029
+    3300078: Cylinder.032
+    3300080: Cylinder.036
+    3300082: Cylinder.037
+    3300084: Cylinder.039
+    3300086: Cylinder.046
+    3300088: Cylinder.047
+    3300090: Cylinder.049
+    3300092: Cylinder.050
+    3300094: Cylinder.051
+    3300096: Cylinder.054
+    3300098: "C\xEDrculo.000"
+    3300100: "C\xEDrculo.001"
+    3300102: "C\xEDrculo.002"
+    3300104: "C\xEDrculo.006"
+    3300106: "C\xEDrculo.008"
+    3300108: "C\xEDrculo.009"
+    3300110: flor1 textu.000
+    3300112: flor1 textu.001
+    3300114: flor1 textu.002
+    3300116: flor1 textu.003
+    3300118: flor1 textu.004
+    3300120: flor1 textu.005
+    3300122: flor1 textu.006
+    3300124: flor1 textu.007
+    3300126: flor1 textu.008
+    3300128: flor1 textu.009
+    3300130: flor1 textu.010
+    3300132: flor1 textur.000
+    3300134: flor1 textur.001
+    3300136: flor1 textur.002
+    3300138: flor1 textur.003
+    3300140: flor1 textur.004
+    3300142: flor1 textur.005
+    3300144: flor1 textur.006
+    3300146: flor1 textur.007
+    3300148: flor1 textura.000
+    3300150: flor1 textura.001
+    3300152: flor1 textura.002
+    3300154: flor1 textura.003
+    3300156: flor1 textura.004
+    3300158: flor1 textura.005
+    3300160: flor1 textura.006
+    3300162: flor1 textura.007
+    3300164: flor1 textura.008
+    3300166: flor1 textura.009
+    3300168: grama 2 (1)
+    3300170: grama 2 (1).001
+    3300172: grama2.000
+    3300174: grama2.001
+    3300176: grama2.002
+    3300178: grama2.003
+    3300180: grama2.004
+    3300182: grama2.005
+    3300184: grama2.006
+    3300186: grama2.007
+    3300188: grama2.008
+    3300190: grama2.009
+    3300192: grama2.010
+    3300194: grama2.011
+    3300196: grama2.012
+    3300198: grama2.013
+    3300200: grama2.014
+    3300202: grama2.015
+    3300204: grama2.016
+    3300206: grama2.017
+    3300208: grama2.018
+    3300210: grama2.019
+    3300212: grama2.020
+    3300214: Icosphere
+    3300216: Icosphere.000
+    3300218: Icosphere.001
+    3300220: Icosphere.002
+    3300222: Icosphere.003
+    3300224: Icosphere.004
+    3300226: Icosphere.005
+    3300228: Icosphere.006
+    3300230: Icosphere.007
+    3300232: Icosphere.008
+    3300234: Icosphere.009
+    3300236: Icosphere.010
+    3300238: Icosphere.011
+    3300240: Icosphere.012
+    3300242: Icosphere.013
+    3300244: Icosphere.014
+    3300246: Icosphere.015
+    3300248: Icosphere.016
+    3300250: Icosphere.017
+    3300252: Icosphere.018
+    3300254: Icosphere.019
+    3300256: Icosphere.020
+    3300258: Icosphere.021
+    3300260: Icosphere.022
+    3300262: Icosphere.023
+    3300264: Icosphere.024
+    3300266: Icosphere.025
+    3300268: Icosphere.026
+    3300270: Icosphere.027
+    3300272: Icosphere.028
+    3300274: Icosphere.029
+    3300276: Icosphere.030
+    3300278: Icosphere.033
+    3300280: Icosphere.037
+    3300282: Icosphere.038
+    3300284: Icosphere.040
+    3300286: Icosphere.044
+    3300288: Icosphere.048
+    3300290: Icosphere.049
+    3300292: Icosphere.050
+    3300294: Icosphere.051
+    3300296: Icosphere.053
+    3300298: Icosphere.054
+    3300300: Icosphere.055
+    3300302: Icosphere.058
+    3300304: Icosphere.059
+    4300000: "C\xEDrculo.009"
+    4300002: "C\xEDrculo.008"
+    4300004: Icosphere.059
+    4300006: Cylinder.054
+    4300008: Icosphere.058
+    4300010: Icosphere.055
+    4300012: Cylinder.051
+    4300014: grama 2 (1).001
+    4300016: Icosphere.054
+    4300018: Cylinder.050
+    4300020: Icosphere.053
+    4300022: Cylinder.049
+    4300024: Cylinder.047
+    4300026: Icosphere.051
+    4300028: Cylinder.046
+    4300030: Icosphere.050
+    4300032: grama2.020
+    4300034: flor1 textura.009
+    4300036: flor1 textur.007
+    4300038: flor1 textu.010
+    4300040: Icosphere.049
+    4300042: Icosphere.048
+    4300044: grama2.019
+    4300046: grama2.017
+    4300048: grama2.016
+    4300050: grama2.015
+    4300052: grama2.011
+    4300054: grama2.010
+    4300056: flor1 textura.008
+    4300058: flor1 textu.009
+    4300060: flor1 textur.006
+    4300062: flor1 textura.007
+    4300064: grama2.000
+    4300066: arbusto 1.005
+    4300068: Icosphere.044
+    4300070: flor1 textur.005
+    4300072: flor1 textura.006
+    4300074: flor1 textu.008
+    4300076: flor1 textu.007
+    4300078: flor1 textu.000
+    4300080: flor1 textur.000
+    4300082: flor1 textura.000
+    4300084: Icosphere.040
+    4300086: Cylinder.039
+    4300088: arbusto 1.004
+    4300090: arbusto 1.000
+    4300092: Cylinder.037
+    4300094: Icosphere.038
+    4300096: Icosphere.037
+    4300098: Cylinder.036
+    4300100: Cylinder.032
+    4300102: Icosphere.033
+    4300104: Icosphere.030
+    4300106: Cylinder.029
+    4300108: Cylinder.028
+    4300110: Icosphere.029
+    4300112: Icosphere.028
+    4300114: Cylinder.027
+    4300116: Cylinder.026
+    4300118: Icosphere.027
+    4300120: Icosphere.026
+    4300122: Cylinder.025
+    4300124: Icosphere.024
+    4300126: Cylinder.023
+    4300128: Cylinder.022
+    4300130: Icosphere.023
+    4300132: Icosphere.022
+    4300134: Cylinder.021
+    4300136: arbusto 1.003
+    4300138: arbusto 1.002
+    4300140: Icosphere.020
+    4300142: Cylinder.019
+    4300144: Cylinder.018
+    4300146: Icosphere.019
+    4300148: Icosphere.018
+    4300150: Cylinder.017
+    4300152: Cylinder.016
+    4300154: Icosphere.017
+    4300156: Icosphere.016
+    4300158: Cylinder.015
+    4300160: flor1 textura.005
+    4300162: flor1 textur.004
+    4300164: flor1 textu.006
+    4300166: flor1 textu.005
+    4300168: flor1 textu.004
+    4300170: flor1 textura.004
+    4300172: flor1 textur.003
+    4300174: grama2.014
+    4300176: grama2.018
+    4300178: grama2.013
+    4300180: grama2.012
+    4300182: flor1 textu.003
+    4300184: grama2.009
+    4300186: "cip\xF3 2.002"
+    4300188: "C\xEDrculo.001"
+    4300190: "C\xEDrculo.000"
+    4300192: Icosphere.015
+    4300194: Cylinder.014
+    4300196: Icosphere.014
+    4300198: Icosphere.013
+    4300200: Cylinder.001
+    4300202: Icosphere.008
+    4300204: Cylinder.009
+    4300206: arbusto 1.001
+    4300208: grama2.008
+    4300210: flor1 textura.003
+    4300212: flor1 textur.002
+    4300214: flor1 textu.002
+    4300216: flor1 textura.002
+    4300218: grama2.007
+    4300220: grama2.006
+    4300222: grama2.005
+    4300224: grama2.004
+    4300226: grama2.003
+    4300228: grama2.002
+    4300230: Icosphere.012
+    4300232: Icosphere.011
+    4300234: flor1 textu.001
+    4300236: flor1 textur.001
+    4300238: flor1 textura.001
+    4300240: grama2.001
+    4300242: Icosphere.010
+    4300244: Cylinder.012
+    4300246: Icosphere.009
+    4300248: Cylinder.010
+    4300250: Icosphere.004
+    4300252: Cylinder.006
+    4300254: "cip\xF33"
+    4300256: "cip\xF3 2"
+    4300258: Cylinder.011
+    4300260: Icosphere.006
+    4300262: Cylinder.007
+    4300264: Icosphere.005
+    4300266: grama 2 (1)
+    4300268: Cylinder.005
+    4300270: Icosphere.003
+    4300272: Cube.003
+    4300274: Cube.009
+    4300276: Cube.001
+    4300278: Cube
+    4300280: Cylinder.008
+    4300282: Icosphere.007
+    4300284: Cylinder.004
+    4300286: Icosphere.002
+    4300288: Icosphere.000
+    4300290: Cylinder.013
+    4300292: Cylinder.002
+    4300294: Cylinder
+    4300296: Icosphere
+    4300298: "C\xEDrculo.002"
+    4300300: "C\xEDrculo.006"
+    4300302: Cylinder.003
+    4300304: Icosphere.001
+    4300306: Cylinder.020
+    4300308: Icosphere.021
+    4300310: Cylinder.024
+    4300312: Icosphere.025
+    7400000: Icosphere.055|Cylinder.005Action
+    7400002: Icosphere.055|Cylinder.005Action.001
+    7400004: Icosphere.055|Cylinder.005Action.002
+    7400006: Icosphere.055|Cylinder.005Action.003
+    7400008: Icosphere.055|Cylinder.005Action.004
+    7400010: Icosphere.055|Cylinder.005Action.005
+    7400012: Icosphere.055|Cylinder.005Action.006
+    7400014: Icosphere.055|Cylinder.005Action.007
+    7400016: Icosphere.055|Icosphere.003Action
+    7400018: Icosphere.055|Icosphere.003Action.001
+    7400020: Icosphere.055|Icosphere.003Action.002
+    7400022: Icosphere.055|Icosphere.003Action.003
+    7400024: Icosphere.055|Icosphere.003Action.004
+    7400026: Icosphere.055|Icosphere.003Action.005
+    7400028: Icosphere.055|Icosphere.003Action.006
+    7400030: Icosphere.055|Icosphere.003Action.007
+    7400032: Icosphere.055|LampAction
+    7400034: Cylinder.051|Cylinder.005Action
+    7400036: Cylinder.051|Cylinder.005Action.001
+    7400038: Cylinder.051|Cylinder.005Action.002
+    7400040: Cylinder.051|Cylinder.005Action.003
+    7400042: Cylinder.051|Cylinder.005Action.004
+    7400044: Cylinder.051|Cylinder.005Action.005
+    7400046: Cylinder.051|Cylinder.005Action.006
+    7400048: Cylinder.051|Cylinder.005Action.007
+    7400050: Cylinder.051|Icosphere.003Action
+    7400052: Cylinder.051|Icosphere.003Action.001
+    7400054: Cylinder.051|Icosphere.003Action.002
+    7400056: Cylinder.051|Icosphere.003Action.003
+    7400058: Cylinder.051|Icosphere.003Action.004
+    7400060: Cylinder.051|Icosphere.003Action.005
+    7400062: Cylinder.051|Icosphere.003Action.006
+    7400064: Cylinder.051|Icosphere.003Action.007
+    7400066: Cylinder.051|LampAction
+    7400068: Icosphere.054|Cylinder.005Action
+    7400070: Icosphere.054|Cylinder.005Action.001
+    7400072: Icosphere.054|Cylinder.005Action.002
+    7400074: Icosphere.054|Cylinder.005Action.003
+    7400076: Icosphere.054|Cylinder.005Action.004
+    7400078: Icosphere.054|Cylinder.005Action.005
+    7400080: Icosphere.054|Cylinder.005Action.006
+    7400082: Icosphere.054|Cylinder.005Action.007
+    7400084: Icosphere.054|Icosphere.003Action
+    7400086: Icosphere.054|Icosphere.003Action.001
+    7400088: Icosphere.054|Icosphere.003Action.002
+    7400090: Icosphere.054|Icosphere.003Action.003
+    7400092: Icosphere.054|Icosphere.003Action.004
+    7400094: Icosphere.054|Icosphere.003Action.005
+    7400096: Icosphere.054|Icosphere.003Action.006
+    7400098: Icosphere.054|Icosphere.003Action.007
+    7400100: Icosphere.054|LampAction
+    7400102: Cylinder.050|Cylinder.005Action
+    7400104: Cylinder.050|Cylinder.005Action.001
+    7400106: Cylinder.050|Cylinder.005Action.002
+    7400108: Cylinder.050|Cylinder.005Action.003
+    7400110: Cylinder.050|Cylinder.005Action.004
+    7400112: Cylinder.050|Cylinder.005Action.005
+    7400114: Cylinder.050|Cylinder.005Action.006
+    7400116: Cylinder.050|Cylinder.005Action.007
+    7400118: Cylinder.050|Icosphere.003Action
+    7400120: Cylinder.050|Icosphere.003Action.001
+    7400122: Cylinder.050|Icosphere.003Action.002
+    7400124: Cylinder.050|Icosphere.003Action.003
+    7400126: Cylinder.050|Icosphere.003Action.004
+    7400128: Cylinder.050|Icosphere.003Action.005
+    7400130: Cylinder.050|Icosphere.003Action.006
+    7400132: Cylinder.050|Icosphere.003Action.007
+    7400134: Cylinder.050|LampAction
+    7400136: Icosphere.053|Cylinder.005Action
+    7400138: Icosphere.053|Cylinder.005Action.001
+    7400140: Icosphere.053|Cylinder.005Action.002
+    7400142: Icosphere.053|Cylinder.005Action.003
+    7400144: Icosphere.053|Cylinder.005Action.004
+    7400146: Icosphere.053|Cylinder.005Action.005
+    7400148: Icosphere.053|Cylinder.005Action.006
+    7400150: Icosphere.053|Cylinder.005Action.007
+    7400152: Icosphere.053|Icosphere.003Action
+    7400154: Icosphere.053|Icosphere.003Action.001
+    7400156: Icosphere.053|Icosphere.003Action.002
+    7400158: Icosphere.053|Icosphere.003Action.003
+    7400160: Icosphere.053|Icosphere.003Action.004
+    7400162: Icosphere.053|Icosphere.003Action.005
+    7400164: Icosphere.053|Icosphere.003Action.006
+    7400166: Icosphere.053|Icosphere.003Action.007
+    7400168: Icosphere.053|LampAction
+    7400170: Cylinder.049|Cylinder.005Action
+    7400172: Cylinder.049|Cylinder.005Action.001
+    7400174: Cylinder.049|Cylinder.005Action.002
+    7400176: Cylinder.049|Cylinder.005Action.003
+    7400178: Cylinder.049|Cylinder.005Action.004
+    7400180: Cylinder.049|Cylinder.005Action.005
+    7400182: Cylinder.049|Cylinder.005Action.006
+    7400184: Cylinder.049|Cylinder.005Action.007
+    7400186: Cylinder.049|Icosphere.003Action
+    7400188: Cylinder.049|Icosphere.003Action.001
+    7400190: Cylinder.049|Icosphere.003Action.002
+    7400192: Cylinder.049|Icosphere.003Action.003
+    7400194: Cylinder.049|Icosphere.003Action.004
+    7400196: Cylinder.049|Icosphere.003Action.005
+    7400198: Cylinder.049|Icosphere.003Action.006
+    7400200: Cylinder.049|Icosphere.003Action.007
+    7400202: Cylinder.049|LampAction
+    7400204: Cylinder.047|Cylinder.005Action
+    7400206: Cylinder.047|Cylinder.005Action.001
+    7400208: Cylinder.047|Cylinder.005Action.002
+    7400210: Cylinder.047|Cylinder.005Action.003
+    7400212: Cylinder.047|Cylinder.005Action.004
+    7400214: Cylinder.047|Cylinder.005Action.005
+    7400216: Cylinder.047|Cylinder.005Action.006
+    7400218: Cylinder.047|Cylinder.005Action.007
+    7400220: Cylinder.047|Icosphere.003Action
+    7400222: Cylinder.047|Icosphere.003Action.001
+    7400224: Cylinder.047|Icosphere.003Action.002
+    7400226: Cylinder.047|Icosphere.003Action.003
+    7400228: Cylinder.047|Icosphere.003Action.004
+    7400230: Cylinder.047|Icosphere.003Action.005
+    7400232: Cylinder.047|Icosphere.003Action.006
+    7400234: Cylinder.047|Icosphere.003Action.007
+    7400236: Cylinder.047|LampAction
+    7400238: Icosphere.051|Cylinder.005Action
+    7400240: Icosphere.051|Cylinder.005Action.001
+    7400242: Icosphere.051|Cylinder.005Action.002
+    7400244: Icosphere.051|Cylinder.005Action.003
+    7400246: Icosphere.051|Cylinder.005Action.004
+    7400248: Icosphere.051|Cylinder.005Action.005
+    7400250: Icosphere.051|Cylinder.005Action.006
+    7400252: Icosphere.051|Cylinder.005Action.007
+    7400254: Icosphere.051|Icosphere.003Action
+    7400256: Icosphere.051|Icosphere.003Action.001
+    7400258: Icosphere.051|Icosphere.003Action.002
+    7400260: Icosphere.051|Icosphere.003Action.003
+    7400262: Icosphere.051|Icosphere.003Action.004
+    7400264: Icosphere.051|Icosphere.003Action.005
+    7400266: Icosphere.051|Icosphere.003Action.006
+    7400268: Icosphere.051|Icosphere.003Action.007
+    7400270: Icosphere.051|LampAction
+    7400272: Icosphere.009|Cylinder.005Action
+    7400274: Icosphere.009|Cylinder.005Action.001
+    7400276: Icosphere.009|Cylinder.005Action.002
+    7400278: Icosphere.009|Cylinder.005Action.003
+    7400280: Icosphere.009|Cylinder.005Action.004
+    7400282: Icosphere.009|Cylinder.005Action.005
+    7400284: Icosphere.009|Cylinder.005Action.006
+    7400286: Icosphere.009|Cylinder.005Action.007
+    7400288: Icosphere.009|Icosphere.003Action
+    7400290: Icosphere.009|Icosphere.003Action.001
+    7400292: Icosphere.009|Icosphere.003Action.002
+    7400294: Icosphere.009|Icosphere.003Action.003
+    7400296: Icosphere.009|Icosphere.003Action.004
+    7400298: Icosphere.009|Icosphere.003Action.005
+    7400300: Icosphere.009|Icosphere.003Action.006
+    7400302: Icosphere.009|Icosphere.003Action.007
+    7400304: Icosphere.009|LampAction
+    7400306: Cylinder.010|Cylinder.005Action
+    7400308: Cylinder.010|Cylinder.005Action.001
+    7400310: Cylinder.010|Cylinder.005Action.002
+    7400312: Cylinder.010|Cylinder.005Action.003
+    7400314: Cylinder.010|Cylinder.005Action.004
+    7400316: Cylinder.010|Cylinder.005Action.005
+    7400318: Cylinder.010|Cylinder.005Action.006
+    7400320: Cylinder.010|Cylinder.005Action.007
+    7400322: Cylinder.010|Icosphere.003Action
+    7400324: Cylinder.010|Icosphere.003Action.001
+    7400326: Cylinder.010|Icosphere.003Action.002
+    7400328: Cylinder.010|Icosphere.003Action.003
+    7400330: Cylinder.010|Icosphere.003Action.004
+    7400332: Cylinder.010|Icosphere.003Action.005
+    7400334: Cylinder.010|Icosphere.003Action.006
+    7400336: Cylinder.010|Icosphere.003Action.007
+    7400338: Cylinder.010|LampAction
+    7400340: Cylinder.011|Cylinder.005Action
+    7400342: Cylinder.011|Cylinder.005Action.001
+    7400344: Cylinder.011|Cylinder.005Action.002
+    7400346: Cylinder.011|Cylinder.005Action.003
+    7400348: Cylinder.011|Cylinder.005Action.004
+    7400350: Cylinder.011|Cylinder.005Action.005
+    7400352: Cylinder.011|Cylinder.005Action.006
+    7400354: Cylinder.011|Cylinder.005Action.007
+    7400356: Cylinder.011|Icosphere.003Action
+    7400358: Cylinder.011|Icosphere.003Action.001
+    7400360: Cylinder.011|Icosphere.003Action.002
+    7400362: Cylinder.011|Icosphere.003Action.003
+    7400364: Cylinder.011|Icosphere.003Action.004
+    7400366: Cylinder.011|Icosphere.003Action.005
+    7400368: Cylinder.011|Icosphere.003Action.006
+    7400370: Cylinder.011|Icosphere.003Action.007
+    7400372: Cylinder.011|LampAction
+    7400374: Icosphere.006|Cylinder.005Action
+    7400376: Icosphere.006|Cylinder.005Action.001
+    7400378: Icosphere.006|Cylinder.005Action.002
+    7400380: Icosphere.006|Cylinder.005Action.003
+    7400382: Icosphere.006|Cylinder.005Action.004
+    7400384: Icosphere.006|Cylinder.005Action.005
+    7400386: Icosphere.006|Cylinder.005Action.006
+    7400388: Icosphere.006|Cylinder.005Action.007
+    7400390: Icosphere.006|Icosphere.003Action
+    7400392: Icosphere.006|Icosphere.003Action.001
+    7400394: Icosphere.006|Icosphere.003Action.002
+    7400396: Icosphere.006|Icosphere.003Action.003
+    7400398: Icosphere.006|Icosphere.003Action.004
+    7400400: Icosphere.006|Icosphere.003Action.005
+    7400402: Icosphere.006|Icosphere.003Action.006
+    7400404: Icosphere.006|Icosphere.003Action.007
+    7400406: Icosphere.006|LampAction
+    7400408: Cylinder.007|Cylinder.005Action
+    7400410: Cylinder.007|Cylinder.005Action.001
+    7400412: Cylinder.007|Cylinder.005Action.002
+    7400414: Cylinder.007|Cylinder.005Action.003
+    7400416: Cylinder.007|Cylinder.005Action.004
+    7400418: Cylinder.007|Cylinder.005Action.005
+    7400420: Cylinder.007|Cylinder.005Action.006
+    7400422: Cylinder.007|Cylinder.005Action.007
+    7400424: Cylinder.007|Icosphere.003Action
+    7400426: Cylinder.007|Icosphere.003Action.001
+    7400428: Cylinder.007|Icosphere.003Action.002
+    7400430: Cylinder.007|Icosphere.003Action.003
+    7400432: Cylinder.007|Icosphere.003Action.004
+    7400434: Cylinder.007|Icosphere.003Action.005
+    7400436: Cylinder.007|Icosphere.003Action.006
+    7400438: Cylinder.007|Icosphere.003Action.007
+    7400440: Cylinder.007|LampAction
+    7400442: Icosphere.005|Cylinder.005Action
+    7400444: Icosphere.005|Cylinder.005Action.001
+    7400446: Icosphere.005|Cylinder.005Action.002
+    7400448: Icosphere.005|Cylinder.005Action.003
+    7400450: Icosphere.005|Cylinder.005Action.004
+    7400452: Icosphere.005|Cylinder.005Action.005
+    7400454: Icosphere.005|Cylinder.005Action.006
+    7400456: Icosphere.005|Cylinder.005Action.007
+    7400458: Icosphere.005|Icosphere.003Action
+    7400460: Icosphere.005|Icosphere.003Action.001
+    7400462: Icosphere.005|Icosphere.003Action.002
+    7400464: Icosphere.005|Icosphere.003Action.003
+    7400466: Icosphere.005|Icosphere.003Action.004
+    7400468: Icosphere.005|Icosphere.003Action.005
+    7400470: Icosphere.005|Icosphere.003Action.006
+    7400472: Icosphere.005|Icosphere.003Action.007
+    7400474: Icosphere.005|LampAction
+    7400476: Lamp|Cylinder.005Action
+    7400478: Lamp|Cylinder.005Action.001
+    7400480: Lamp|Cylinder.005Action.002
+    7400482: Lamp|Cylinder.005Action.003
+    7400484: Lamp|Cylinder.005Action.004
+    7400486: Lamp|Cylinder.005Action.005
+    7400488: Lamp|Cylinder.005Action.006
+    7400490: Lamp|Cylinder.005Action.007
+    7400492: Lamp|Icosphere.003Action
+    7400494: Lamp|Icosphere.003Action.001
+    7400496: Lamp|Icosphere.003Action.002
+    7400498: Lamp|Icosphere.003Action.003
+    7400500: Lamp|Icosphere.003Action.004
+    7400502: Lamp|Icosphere.003Action.005
+    7400504: Lamp|Icosphere.003Action.006
+    7400506: Lamp|Icosphere.003Action.007
+    7400508: Lamp|LampAction
+    7400510: Cylinder.005|Cylinder.005Action
+    7400512: Cylinder.005|Cylinder.005Action.001
+    7400514: Cylinder.005|Cylinder.005Action.002
+    7400516: Cylinder.005|Cylinder.005Action.003
+    7400518: Cylinder.005|Cylinder.005Action.004
+    7400520: Cylinder.005|Cylinder.005Action.005
+    7400522: Cylinder.005|Cylinder.005Action.006
+    7400524: Cylinder.005|Cylinder.005Action.007
+    7400526: Cylinder.005|Icosphere.003Action
+    7400528: Cylinder.005|Icosphere.003Action.001
+    7400530: Cylinder.005|Icosphere.003Action.002
+    7400532: Cylinder.005|Icosphere.003Action.003
+    7400534: Cylinder.005|Icosphere.003Action.004
+    7400536: Cylinder.005|Icosphere.003Action.005
+    7400538: Cylinder.005|Icosphere.003Action.006
+    7400540: Cylinder.005|Icosphere.003Action.007
+    7400542: Cylinder.005|LampAction
+    7400544: Icosphere.003|Cylinder.005Action
+    7400546: Icosphere.003|Cylinder.005Action.001
+    7400548: Icosphere.003|Cylinder.005Action.002
+    7400550: Icosphere.003|Cylinder.005Action.003
+    7400552: Icosphere.003|Cylinder.005Action.004
+    7400554: Icosphere.003|Cylinder.005Action.005
+    7400556: Icosphere.003|Cylinder.005Action.006
+    7400558: Icosphere.003|Cylinder.005Action.007
+    7400560: Icosphere.003|Icosphere.003Action
+    7400562: Icosphere.003|Icosphere.003Action.001
+    7400564: Icosphere.003|Icosphere.003Action.002
+    7400566: Icosphere.003|Icosphere.003Action.003
+    7400568: Icosphere.003|Icosphere.003Action.004
+    7400570: Icosphere.003|Icosphere.003Action.005
+    7400572: Icosphere.003|Icosphere.003Action.006
+    7400574: Icosphere.003|Icosphere.003Action.007
+    7400576: Icosphere.003|LampAction
+    7400578: Armature.002|Armature.002Action.000
+    7400580: Armature.002|ArmatureAction.000
+    7400582: Armature.002|ArmatureAction.003
+    7400584: Armature.002|Cylinder.005Action
+    7400586: Armature.002|Cylinder.005Action.001
+    7400588: Armature.002|Cylinder.005Action.002
+    7400590: Armature.002|Cylinder.005Action.003
+    7400592: Armature.002|Cylinder.005Action.004
+    7400594: Armature.002|Cylinder.005Action.005
+    7400596: Armature.002|Cylinder.005Action.006
+    7400598: Armature.002|Cylinder.005Action.007
+    7400600: Armature.002|Icosphere.003Action
+    7400602: Armature.002|Icosphere.003Action.001
+    7400604: Armature.002|Icosphere.003Action.002
+    7400606: Armature.002|Icosphere.003Action.003
+    7400608: Armature.002|Icosphere.003Action.004
+    7400610: Armature.002|Icosphere.003Action.005
+    7400612: Armature.002|Icosphere.003Action.006
+    7400614: Armature.002|Icosphere.003Action.007
+    7400616: Armature.002|LampAction
+    7400618: Armature|ArmatureAction.000
+    7400620: Armature|ArmatureAction.003
+    7400622: Armature|Cylinder.005Action
+    7400624: Armature|Cylinder.005Action.001
+    7400626: Armature|Cylinder.005Action.002
+    7400628: Armature|Cylinder.005Action.003
+    7400630: Armature|Cylinder.005Action.004
+    7400632: Armature|Cylinder.005Action.005
+    7400634: Armature|Cylinder.005Action.006
+    7400636: Armature|Cylinder.005Action.007
+    7400638: Armature|Icosphere.003Action
+    7400640: Armature|Icosphere.003Action.001
+    7400642: Armature|Icosphere.003Action.002
+    7400644: Armature|Icosphere.003Action.003
+    7400646: Armature|Icosphere.003Action.004
+    7400648: Armature|Icosphere.003Action.005
+    7400650: Armature|Icosphere.003Action.006
+    7400652: Armature|Icosphere.003Action.007
+    7400654: Armature|LampAction
+    7400656: Armature.001|ArmatureAction.000
+    7400658: Armature.001|ArmatureAction.003
+    7400660: Armature.001|Cylinder.005Action
+    7400662: Armature.001|Cylinder.005Action.001
+    7400664: Armature.001|Cylinder.005Action.002
+    7400666: Armature.001|Cylinder.005Action.003
+    7400668: Armature.001|Cylinder.005Action.004
+    7400670: Armature.001|Cylinder.005Action.005
+    7400672: Armature.001|Cylinder.005Action.006
+    7400674: Armature.001|Cylinder.005Action.007
+    7400676: Armature.001|Icosphere.003Action
+    7400678: Armature.001|Icosphere.003Action.001
+    7400680: Armature.001|Icosphere.003Action.002
+    7400682: Armature.001|Icosphere.003Action.003
+    7400684: Armature.001|Icosphere.003Action.004
+    7400686: Armature.001|Icosphere.003Action.005
+    7400688: Armature.001|Icosphere.003Action.006
+    7400690: Armature.001|Icosphere.003Action.007
+    7400692: Armature.001|LampAction
+    7400694: Armature.004|Armature.002Action.000
+    7400696: Armature.004|Armature.004Action.001
+    7400698: Armature.004|ArmatureAction.000
+    7400700: Armature.004|ArmatureAction.003
+    7400702: Armature.004|Cylinder.005Action
+    7400704: Armature.004|Cylinder.005Action.001
+    7400706: Armature.004|Cylinder.005Action.002
+    7400708: Armature.004|Cylinder.005Action.003
+    7400710: Armature.004|Cylinder.005Action.004
+    7400712: Armature.004|Cylinder.005Action.005
+    7400714: Armature.004|Cylinder.005Action.006
+    7400716: Armature.004|Cylinder.005Action.007
+    7400718: Armature.004|Icosphere.003Action
+    7400720: Armature.004|Icosphere.003Action.001
+    7400722: Armature.004|Icosphere.003Action.002
+    7400724: Armature.004|Icosphere.003Action.003
+    7400726: Armature.004|Icosphere.003Action.004
+    7400728: Armature.004|Icosphere.003Action.005
+    7400730: Armature.004|Icosphere.003Action.006
+    7400732: Armature.004|Icosphere.003Action.007
+    7400734: Armature.004|LampAction
+    9500000: //RootNode
+    10800000: Lamp
+    13700000: Cube
+    13700002: Cube.001
+    13700004: Cube.003
+    13700006: Cube.009
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

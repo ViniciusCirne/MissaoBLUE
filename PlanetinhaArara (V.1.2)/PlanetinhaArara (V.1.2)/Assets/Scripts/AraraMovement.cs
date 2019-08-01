@@ -17,6 +17,7 @@ public class AraraMovement : MonoBehaviour
 	public AudioClip hitclip;
 	private ScreenManeger screenMan;
 	public Animator hitAnimation;
+	public GameObject defeatPanel;
 
 
 	
@@ -29,6 +30,7 @@ public class AraraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		defeatPanel.SetActive(false);
 		screenMan = GameObject.FindGameObjectWithTag("ScreenManeger").GetComponent<ScreenManeger>();
 		araraScore = 0;
 		//speed = 10.0f;
@@ -105,11 +107,13 @@ public class AraraMovement : MonoBehaviour
 
 		if (col.gameObject.CompareTag("Obstacle")) 
 		{
-			rb.useGravity = true;
+			//rb.useGravity = true;
 			speed = 0;
 			
 			StartCoroutine(FadeManeger());	
 		    SceneManager.LoadScene("Derrota");
+			//defeatPanel.SetActive(true);
+			//screenMan.CamStop();
 			NumAraras.canAdd = true;
 
 			//audiosource.clip = hitclip;
@@ -120,7 +124,7 @@ public class AraraMovement : MonoBehaviour
 
 		else if (col.gameObject.CompareTag("Fire Tree")) {
 			Debug.Log("morreuuu");
-			rb.useGravity = true;
+			//rb.useGravity = true;
 			speed = 0;
 			
 			audiosource.clip = hitclip;
@@ -131,6 +135,8 @@ public class AraraMovement : MonoBehaviour
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");
+			//defeatPanel.SetActive(true);
+			//screenMan.CamStop();
 			NumAraras.canAdd = true;
 		}
 			
@@ -144,11 +150,13 @@ public class AraraMovement : MonoBehaviour
 			if (life == 0) 
 			{
 				Debug.Log("morreuuu");
-				rb.useGravity = true;
+				//rb.useGravity = true;
 				speed = 0;
 
 				StartCoroutine(FadeManeger());
 				SceneManager.LoadScene("Derrota");
+				//defeatPanel.SetActive(true);
+				//screenMan.CamStop();
 				NumAraras.canAdd = true;
 			}
 			
@@ -162,7 +170,7 @@ public class AraraMovement : MonoBehaviour
 		}
 
 		else if (col.gameObject.CompareTag("Fire")) {
-			rb.useGravity = true;
+			//rb.useGravity = true;
 			speed = 0;
 			
 			audiosource.clip = hitclip;
@@ -173,6 +181,8 @@ public class AraraMovement : MonoBehaviour
 
 			StartCoroutine(FadeManeger());
 			SceneManager.LoadScene("Derrota");
+			//defeatPanel.SetActive(true);
+			//screenMan.CamStop();
 			NumAraras.canAdd = true;
 		}
 

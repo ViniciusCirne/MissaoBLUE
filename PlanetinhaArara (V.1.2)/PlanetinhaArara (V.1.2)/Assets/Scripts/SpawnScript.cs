@@ -17,6 +17,7 @@ public class SpawnScript : MonoBehaviour
 	public int minAraras;
 	public bool scenario;
 	public bool canStartCoroutine;
+	public GameObject victoryPanel;
 
 	public float difzPosition;
    
@@ -101,15 +102,17 @@ public class SpawnScript : MonoBehaviour
 
 	IEnumerator TempoDeVitoria()
 	{
-		Debug.Log("santuarios");
-		Debug.Log(Score.scoreValue);
+		//Debug.Log("santuarios");
+		//Debug.Log(Score.scoreValue);
 
-		Instantiate (santuario, lastPosi, Quaternion.identity);
-		yield return new WaitForSeconds(20);
+		//Instantiate (santuario, lastPosi, Quaternion.identity);
+
 		//canSpawn = false;
 		//vitoria = true;
         AraraCounter.totalAraras += AraraMovement.araraScore;
 		SceneManager.LoadScene("Vitoria");
+		yield return new WaitForSeconds(1);
+		//victoryPanel.SetActive(true);
 		NumAraras.canAdd = true;
 	}
        

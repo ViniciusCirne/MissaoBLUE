@@ -7,6 +7,7 @@ public class ScreenManeger : MonoBehaviour
    public Animator camShakeAnim;
    public Animator camHitAnim;
 	public Animator textPopUp;
+	//public Animator camStop;
 
 
 
@@ -28,6 +29,11 @@ public class ScreenManeger : MonoBehaviour
 	{
 		textPopUp.SetTrigger("pop");
 	}
+
+	//public void CamStop()
+	//{
+	//	camStop.SetTrigger("stop");
+	//}
 
 
 

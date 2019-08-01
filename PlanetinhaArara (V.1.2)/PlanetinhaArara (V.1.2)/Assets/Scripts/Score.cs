@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
@@ -11,8 +12,17 @@ public class Score : MonoBehaviour
 
     void Start()
     {
-       score = GetComponent<Text> ();
-		scoreValue = 0;
+		score = GetComponent<Text> ();
+
+		Scene cena = SceneManager.GetActiveScene();
+
+		if (cena.name == "Gameplay") {
+
+			scoreValue = 0;
+		}
+
+       
+
     }
 
     // Update is called once per frame

@@ -64,7 +64,7 @@ public class SoundScript : MonoBehaviour
 			Debug.Log("começa a musica");
 			musInicio.Play();
 			musAcao.Stop();
-			NumAraras.minAraras = 1;
+			NumAraras.minAraras = 5;
 		}
 
 		yield return new WaitForSeconds(40);

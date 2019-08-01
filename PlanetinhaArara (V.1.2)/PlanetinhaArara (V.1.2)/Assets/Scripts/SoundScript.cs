@@ -29,7 +29,7 @@ public class SoundScript : MonoBehaviour
 		if (objs.Length > 1)
 		{
 			Destroy(this.gameObject);
-			Debug.Log ("bora meu fi destrua");
+			//Debug.Log ("bora meu fi destrua");
 		}
 
     }
@@ -37,7 +37,7 @@ public class SoundScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log("nao fui destruidoo");
+		//Debug.Log("nao fui destruidoo");
 
 		if (canStartCrtn == true) {
 			
@@ -65,8 +65,8 @@ public class SoundScript : MonoBehaviour
 			musAcao.Stop();
 		}
 
-		yield return new WaitForSeconds(40 );
-		Debug.Log("esperouu");
+		yield return new WaitForSeconds(40);
+		//Debug.Log("esperouu");
 
 		canStartCrtn = true;
 	}

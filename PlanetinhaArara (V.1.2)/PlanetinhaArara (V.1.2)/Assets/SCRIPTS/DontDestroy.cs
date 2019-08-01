@@ -17,7 +17,7 @@ public class DontDestroy : MonoBehaviour
 
 		if (objs.Length > 1)
 		{
-			Destroy(this.gameObject);
+			Destroy(gameObject);
 			Debug.Log ("bora meu fi destrua");
 		}
     }

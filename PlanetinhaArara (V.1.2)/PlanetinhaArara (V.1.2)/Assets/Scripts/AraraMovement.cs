@@ -114,7 +114,7 @@ public class AraraMovement : MonoBehaviour
 		    SceneManager.LoadScene("Derrota");
 			//defeatPanel.SetActive(true);
 			//screenMan.CamStop();
-			NumAraras.canAdd = true;
+			NumAraras.canAdd = false;
 
 			//audiosource.clip = hitclip;
 			//audiosource.Play();
@@ -137,7 +137,7 @@ public class AraraMovement : MonoBehaviour
 			SceneManager.LoadScene("Derrota");
 			//defeatPanel.SetActive(true);
 			//screenMan.CamStop();
-			NumAraras.canAdd = true;
+			NumAraras.canAdd = false;
 		}
 			
 
@@ -157,7 +157,7 @@ public class AraraMovement : MonoBehaviour
 				SceneManager.LoadScene("Derrota");
 				//defeatPanel.SetActive(true);
 				//screenMan.CamStop();
-				NumAraras.canAdd = true;
+				NumAraras.canAdd = false;
 			}
 			
 			
@@ -183,7 +183,7 @@ public class AraraMovement : MonoBehaviour
 			SceneManager.LoadScene("Derrota");
 			//defeatPanel.SetActive(true);
 			//screenMan.CamStop();
-			NumAraras.canAdd = true;
+			NumAraras.canAdd = false;
 		}
 
 		else if (col.gameObject.CompareTag ("Baby")){

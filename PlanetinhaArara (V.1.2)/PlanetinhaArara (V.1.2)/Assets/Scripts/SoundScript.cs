@@ -56,6 +56,7 @@ public class SoundScript : MonoBehaviour
 		{
 			musInicio.Stop();
 			musAcao.Play();
+
 		}
 
 		else if (cena.name == "Menu2") 
@@ -63,6 +64,7 @@ public class SoundScript : MonoBehaviour
 			Debug.Log("começa a musica");
 			musInicio.Play();
 			musAcao.Stop();
+			NumAraras.minAraras = 1;
 		}
 
 		yield return new WaitForSeconds(40);

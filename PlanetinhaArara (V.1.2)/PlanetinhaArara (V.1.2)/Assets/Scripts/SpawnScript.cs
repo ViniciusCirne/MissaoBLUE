@@ -110,10 +110,12 @@ public class SpawnScript : MonoBehaviour
 		//canSpawn = false;
 		//vitoria = true;
         AraraCounter.totalAraras += AraraMovement.araraScore;
+		NumAraras.canAdd = true;
+		Debug.Log("pode adicionar");
 		SceneManager.LoadScene("Vitoria");
 		yield return new WaitForSeconds(1);
 		//victoryPanel.SetActive(true);
-		NumAraras.canAdd = true;
+
 	}
        
     

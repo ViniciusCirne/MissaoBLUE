@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NumAraras : MonoBehaviour
 {
@@ -15,9 +16,11 @@ public class NumAraras : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+		Scene cena = SceneManager.GetActiveScene();
 		
 		canvasNum.SetActive(false);
-		minAraras = 10;
+		//minAraras = 3;
 		//num = GetComponent<Text> ();
 		//canvasNum.SetActive (false);
 		//StartCoroutine(TempoCanvas());
@@ -25,7 +28,7 @@ public class NumAraras : MonoBehaviour
 			canvasNum.SetActive(false);
 		}
 
-		if (Tutorial.tutorialDone == true) {
+		if (Tutorial.tutorialDone == true && cena.name == "Gameplay") {
 			canvasNum.SetActive(true);
 		}
 
@@ -40,13 +43,16 @@ public class NumAraras : MonoBehaviour
 			StartCoroutine(TempoCanvas());
 			canStartNum = false;
 		}
+			
 
-		num.text = " " + minAraras;
-
-		if (canAdd == true) {
+	    if (canAdd == true) {
+			Debug.Log("adicionou");
 			minAraras += 5;
+			Debug.Log(minAraras);
 			canAdd = false;
 		}
+
+		num.text = " " + minAraras;
     }
 
 	IEnumerator TempoCanvas()

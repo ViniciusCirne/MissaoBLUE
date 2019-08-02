@@ -64,10 +64,10 @@ public class SoundScript : MonoBehaviour
 			Debug.Log("começa a musica");
 			musInicio.Play();
 			musAcao.Stop();
-			NumAraras.minAraras = 5;
+			//NumAraras.minAraras = 5;
 		}
 
-		yield return new WaitForSeconds(40);
+		yield return new WaitForSeconds(42);
 		//Debug.Log("esperouu");
 
 		canStartCrtn = true;

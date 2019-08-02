@@ -277,7 +277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: 19}
+  m_AnchoredPosition: {x: 372, y: 68}
   m_SizeDelta: {x: 522.7, y: 914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333848810
@@ -313,7 +313,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'DESIGNERS
+  m_Text: '
+
+    DESIGNERS
 
 
 
@@ -367,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -301, y: 288}
-  m_SizeDelta: {x: 522.7, y: 362.3}
+  m_AnchoredPosition: {x: -301, y: 248.9}
+  m_SizeDelta: {x: 522.7, y: 440.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385228127
 MonoBehaviour:
@@ -407,9 +409,13 @@ MonoBehaviour:
 
 
 
-
+    ALLAN KEWEN
 
     marilia gouveia
+
+    MATHEUS GOMES
+
+    MAURICIO II
 
     vinicius medeiros'
 --- !u!222 &385228128
@@ -539,11 +545,12 @@ MonoBehaviour:
 
 
 
+    FREESOUND.ORG
+
     GABRIEL MARQUES
 
     ZAPSPLAT.COM
 
-    FREESOUND.ORG
 
 '
 --- !u!222 &618576137
@@ -1746,7 +1753,7 @@ RectTransform:
   m_GameObject: {fileID: 1376130957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 192}
-  m_LocalScale: {x: 0.34284, y: 0.34284, z: 0.34284}
+  m_LocalScale: {x: 0.32387123, y: 0.32387123, z: 0.32387123}
   m_Children:
   - {fileID: 682700534}
   m_Father: {fileID: 1121123114}
@@ -1754,7 +1761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.6, y: -143}
+  m_AnchoredPosition: {x: 21, y: -146}
   m_SizeDelta: {x: 231, y: 188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376130959
@@ -2510,14 +2517,15 @@ MonoBehaviour:
   m_Text: 'ORIENTADORES
 
 
+    anderson silva
 
-    ERICK SIMOES
+    CARLOS BURGOS
 
     DANIEL MARTINS
 
-    CARLOS JESUS
+    ERICK SIMOES
 
-'
+    JOYCE MARIA'
 --- !u!222 &1963371380
 CanvasRenderer:
   m_ObjectHideFlags: 0
